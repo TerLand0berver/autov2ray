@@ -8,6 +8,9 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PROXY_API_URL: ${{ secrets.PROXY_API_URL }}
 
     steps:
       - name: Checkout repository
@@ -41,6 +44,3 @@ jobs:
           git add sub.yaml
           git commit -m "Update subscription file" || echo "No changes to commit"
           git push origin gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          PROXY_API_URL: ${{ secrets.PROXY_API_URL }}
