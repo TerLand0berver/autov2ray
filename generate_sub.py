@@ -27,7 +27,7 @@ def fetch_all_pages():
     while page_index <= total_pages:
         params = {
             "country": "",
-            "protocol": "socks5,http",
+            "protocol": "socks5",
             "anonymity": "",
             "speed": "0,5",
             "https": "0",
