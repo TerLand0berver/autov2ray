@@ -2,11 +2,11 @@
 
 ### Free Proxy to Clash Subscription Generator
 
-This project automatically fetches free **socks5** and **http** proxies from a public API, converts them into a Clash-compatible YAML subscription, and publishes it via GitHub Actions.
+This project automatically fetches free **socks5** and proxies from a public API, converts them into a Clash-compatible YAML subscription, and publishes it via GitHub Actions.
 
 ### Features
 - Supports over 250 countries and regions.
-- Fetches both **socks5** and **http** proxies.
+- Fetches both **socks5** and proxies.
 - Groups proxies by country, with a global selector.
 - Skips countries with no proxies for 3 days to reduce invalid requests.
 - Updates every minute via GitHub Actions.
@@ -36,11 +36,11 @@ This project automatically fetches free **socks5** and **http** proxies from a p
 
 ### 免费代理转Clash订阅生成器
 
-本项目自动从公共API抓取免费的**socks5**和**http**代理，转换为Clash兼容的YAML订阅，并通过GitHub Actions自动发布。
+本项目自动从公共API抓取免费的**socks5**和代理，转换为Clash兼容的YAML订阅，并通过GitHub Actions自动发布。
 
 ### 功能特点
 - 支持全球250多个国家和地区。
-- 同时获取**socks5**和**http**代理。
+- 同时获取**socks5**代理。
 - 按国家分组，支持全局选择。
 - 对无代理的国家自动跳过3天，减少无效请求。
 - 每分钟自动更新订阅。
@@ -61,5 +61,5 @@ This project automatically fetches free **socks5** and **http** proxies from a p
 
 ### 注意事项
 - 对无代理的国家自动跳过3天。
-- 支持socks5和http两种代理。
+- 支持socks5两种代理。
 - 可在脚本中自定义国家列表和参数。
