@@ -41,3 +41,4 @@ jobs:
           git push origin gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROXY_API_URL: ${{ secrets.PROXY_API_URL }}
