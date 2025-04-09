@@ -36,8 +36,6 @@ jobs:
           git fetch origin gh-pages || true
           git checkout gh-pages || git checkout --orphan gh-pages
 
-      - name: Copy generated file
-        run: cp sub.yaml ./sub.yaml
 
       - name: Commit and push changes
         run: |

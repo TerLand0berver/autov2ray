@@ -57,7 +57,7 @@ def fetch_all_pages():
 
         page_index += 1
         if page_index <= total_pages:
-            print("等待20秒后请求下一页...")
+            print("等待10秒后请求下一页...")
             time.sleep(10)
 
     # 统一筛选有效 socks5/http 代理
