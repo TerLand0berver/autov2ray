@@ -11,104 +11,87 @@ if not API_URL:
     print("错误：未设置环境变量 PROXY_API_URL")
     sys.exit(1)
 UUID = "9f1b0c2e-3d4a-4b5c-8f6e-123456789abc"  # 固定UUID，可替换
-PAGE_SIZE = 20
-SKIP_FILE = "skip_countries.json"
+PAGE_SIZE = 100
 
-# 内置国家代码列表，方便扩展
-COUNTRY_CODES = [
-    "AF", "AL", "DZ", "AS", "AD", "AO", "AI", "AQ", "AG", "AR", "AM", "AW", "AU", "AT", "AZ", "BS", "BH", "BD", "BB", "BY", "BE", "BZ", "BJ", "BM", "BT", "BO", "BQ", "BA", "BW", "BV", "BR", "IO", "BN", "BG", "BF", "BI", "CV", "KH", "CM", "CA", "KY", "CF", "TD", "CL", "CN", "CX", "CC", "CO", "KM", "CG", "CD", "CK", "CR", "CI", "HR", "CU", "CW", "CY", "CZ", "DK", "DJ", "DM", "DO", "EC", "EG", "SV", "GQ", "ER", "EE", "SZ", "ET", "FK", "FO", "FJ", "FI", "FR", "GF", "PF", "TF", "GA", "GM", "GE", "DE", "GH", "GI", "GR", "GL", "GD", "GP", "GU", "GT", "GG", "GN", "GW", "GY", "HT", "HM", "VA", "HN", "HK", "HU", "IS", "IN", "ID", "IR", "IQ", "IE", "IM", "IL", "IT", "JM", "JP", "JE", "JO", "KZ", "KE", "KI", "KP", "KR", "KW", "KG", "LA", "LV", "LB", "LS", "LR", "LY", "LI", "LT", "LU", "MO", "MG", "MW", "MY", "MV", "ML", "MT", "MH", "MQ", "MR", "MU", "YT", "MX", "FM", "MD", "MC", "MN", "ME", "MS", "MA", "MZ", "MM", "NA", "NR", "NP", "NL", "NC", "NZ", "NI", "NE", "NG", "NU", "NF", "MK", "MP", "NO", "OM", "PK", "PW", "PS", "PA", "PG", "PY", "PE", "PH", "PN", "PL", "PT", "PR", "QA", "RE", "RO", "RU", "RW", "BL", "SH", "KN", "LC", "MF", "PM", "VC", "WS", "SM", "ST", "SA", "SN", "RS", "SC", "SL", "SG", "SX", "SK", "SI", "SB", "SO", "ZA", "GS", "SS", "ES", "LK", "SD", "SR", "SJ", "SE", "CH", "SY", "TW", "TJ", "TZ", "TH", "TL", "TG", "TK", "TO", "TT", "TN", "TR", "TM", "TC", "TV", "UG", "UA", "AE", "GB", "US", "UM", "UY", "UZ", "VU", "VE", "VN", "VG", "VI", "WF", "EH", "YE", "ZM", "ZW"
-]
 
-def load_skip_list():
-    if not os.path.exists(SKIP_FILE):
-        return {}
-    try:
-        with open(SKIP_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    except Exception:
-        return {}
 
-def save_skip_list(skip_list):
-    with open(SKIP_FILE, "w", encoding="utf-8") as f:
-        json.dump(skip_list, f, ensure_ascii=False, indent=2)
+def fetch_all_pages():
+    """
+    分页请求API，汇总所有代理
+    """
+    all_items = []
+    page_index = 1
+    page_size = 100
+    total_pages = 1  # 默认至少请求1页
 
-def should_skip_country(skip_list, country_code):
-    info = skip_list.get(country_code)
-    if not info:
-        return False
-    deadline_str = info.get("until")
-    if not deadline_str:
-        return False
-    try:
-        deadline = datetime.fromisoformat(deadline_str)
-    except Exception:
-        return False
-    return datetime.now() < deadline
-
-def update_skip_list(skip_list, country_code, total_count):
-    if total_count == 0:
-        # 加入或更新跳过名单，截止时间为3天后
-        skip_list[country_code] = {
-            "until": (datetime.now() + timedelta(days=3)).isoformat()
+    while page_index <= total_pages:
+        params = {
+            "country": "",
+            "protocol": "socks5,http",
+            "anonymity": "",
+            "speed": "0,5",
+            "https": "0",
+            "page_index": page_index,
+            "page_size": page_size
         }
-    else:
-        # 有结果，移除跳过记录
-        if country_code in skip_list:
-            del skip_list[country_code]
+        try:
+            prepared = requests.Request('GET', API_URL, params=params).prepare()
+            # print(f"请求URL: {prepared.url}")
+            resp = requests.get(API_URL, params=params, timeout=15)
+            resp.raise_for_status()
+            data = resp.json()
+            # print(f"响应JSON: {data}")
+        except Exception as e:
+            print(f"请求第{page_index}页失败: {e}")
+            break
 
-def fetch_country_proxies(country_code):
-    """
-    获取指定国家的代理列表，只请求一页
-    """
-    params = {
-        "country": country_code,
-        "protocol": "socks5,http",
-        "anonymity": "elite,anonymous",
-        "page_size": PAGE_SIZE,
-        "page": 1
-    }
-    try:
-        resp = requests.get(API_URL, params=params, timeout=10)
-        resp.raise_for_status()
-        data = resp.json()
-    except Exception as e:
-        print(f"[{country_code}] 请求失败: {e}")
-        return [], None
+        if page_index == 1:
+            total_count = data.get("data", {}).get("total_count", 0)
+            total_pages = (total_count + page_size - 1) // page_size if total_count else 1
+            print(f"总代理数: {total_count}, 总页数: {total_pages}")
 
-    total_count = data.get("total_count", None)
-    items = data.get("results") or data.get("data") or []
-    valid_proxies = [
-        p for p in items
-        if str(p.get("is_valid")) == "1" and p.get("protocol") in ("socks5", "http")
-    ]
-    print(f"[{country_code}] 获取有效代理数: {len(valid_proxies)}")
-    return valid_proxies, total_count
+        page_items = data.get("data", {}).get("data", [])
+        all_items.extend(page_items)
+
+        print(f"已获取第{page_index}页，累计代理数: {len(all_items)}")
+
+        page_index += 1
+        if page_index <= total_pages:
+            print("等待20秒后请求下一页...")
+            time.sleep(10)
+
+    # 统一筛选有效 socks5/http 代理
+    valid_proxies = []
+    for p in all_items:
+        proto = p.get("protocol") if isinstance(p, dict) else None
+        # print(f"[调试] 当前代理 protocol 字段: {proto}")
+        if isinstance(p, dict) and proto in ("socks5", "http"):
+            valid_proxies.append(p)
+    print(f"有效代理总数: {len(valid_proxies)}")
+    return valid_proxies
 
 def generate_all_proxies():
     """
-    针对所有国家代码，获取代理，生成节点
+    请求一次API，筛选有效代理，按国家分组生成节点
     """
+    proxies = fetch_all_pages()
     all_nodes = []
     country_nodes_map = {}
 
-    skip_list = load_skip_list()
+    country_proxy_dict = {}
+    for p in proxies:
+        country = p.get("country", "ZZ").upper() or "ZZ"
+        proto = p.get("protocol")
+        if country not in country_proxy_dict:
+            country_proxy_dict[country] = []
+        country_proxy_dict[country].append(p)
 
-    for code in COUNTRY_CODES:
-        if should_skip_country(skip_list, code):
-            print(f"[{code}] 在跳过名单中，跳过请求")
-            continue
-
-        proxies, total_count = fetch_country_proxies(code)
-
-        # total_count为None时不更新跳过名单
-        if total_count is not None:
-            update_skip_list(skip_list, code, total_count)
-
+    for country_code, proxy_list in country_proxy_dict.items():
         nodes = []
-        for idx, p in enumerate(proxies, 1):
+        for idx, p in enumerate(proxy_list, 1):
             proto = p.get("protocol")
-            name = f"{code}-{proto}-{idx}"
-            node_type = proto  # 'socks5' 或 'http'
+            name = f"{country_code}-{proto}-{idx}"
+            node_type = proto
             node = {
                 "name": name,
                 "type": node_type,
@@ -118,10 +101,7 @@ def generate_all_proxies():
             }
             nodes.append(node)
             all_nodes.append(node)
-        country_nodes_map[code] = [n["name"] for n in nodes]
-        time.sleep(1)  # 避免请求过快
-
-    save_skip_list(skip_list)
+        country_nodes_map[country_code] = [n["name"] for n in nodes]
 
     return all_nodes, country_nodes_map
 
