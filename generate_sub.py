@@ -65,7 +65,7 @@ def fetch_all_pages():
     for p in all_items:
         proto = p.get("protocol") if isinstance(p, dict) else None
         # print(f"[调试] 当前代理 protocol 字段: {proto}")
-        if isinstance(p, dict) and proto in ("socks5", "http") and p.get("is_valid") == 1:
+        if isinstance(p, dict) and proto in ("socks5") and p.get("is_valid") == 1:
             valid_proxies.append(p)
     print(f"有效代理总数: {len(valid_proxies)}")
     return valid_proxies
