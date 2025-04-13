@@ -1,298 +1,343 @@
 proxies:
 - name: CA-http-1
   type: http
+  server: 67.43.236.20
+  port: 9349
+  udp: true
+- name: CA-http-2
+  type: http
+  server: 72.10.160.173
+  port: 28337
+  udp: true
+- name: CA-http-3
+  type: http
+  server: 67.43.236.19
+  port: 29353
+  udp: true
+- name: CA-http-4
+  type: http
+  server: 72.10.160.90
+  port: 21139
+  udp: true
+- name: CA-http-5
+  type: http
   server: 72.10.160.90
   port: 20959
   udp: true
-- name: CA-http-2
+- name: CA-http-6
   type: http
   server: 72.10.164.178
   port: 10477
   udp: true
-- name: CA-http-3
+- name: CA-http-7
   type: http
   server: 67.43.236.18
   port: 5497
   udp: true
-- name: CA-http-4
+- name: CA-http-8
   type: http
   server: 72.10.160.93
   port: 4647
   udp: true
-- name: CA-http-5
+- name: CA-http-9
   type: http
   server: 72.10.160.171
   port: 19341
   udp: true
-- name: CA-http-6
+- name: CA-http-10
   type: http
   server: 67.43.228.250
   port: 9439
   udp: true
-- name: CA-http-7
+- name: CA-http-11
   type: http
   server: 72.10.160.92
   port: 10149
   udp: true
-- name: CA-http-8
+- name: CA-http-12
   type: http
   server: 72.10.160.173
   port: 31657
   udp: true
-- name: CA-http-9
+- name: CA-http-13
   type: http
   server: 72.10.160.91
   port: 27495
   udp: true
-- name: CA-http-10
+- name: CA-http-14
   type: http
   server: 67.43.228.250
   port: 27187
   udp: true
-- name: CA-http-11
+- name: CA-http-15
   type: http
   server: 67.43.236.20
   port: 3551
   udp: true
-- name: CA-http-12
+- name: CA-http-16
   type: http
   server: 67.43.236.18
   port: 12837
   udp: true
-- name: CA-http-13
+- name: CA-http-17
   type: http
   server: 67.43.236.19
   port: 32937
   udp: true
-- name: CA-http-14
+- name: CA-http-18
   type: http
   server: 67.43.236.21
   port: 20261
   udp: true
-- name: CA-http-15
+- name: CA-http-19
   type: http
   server: 67.43.236.18
   port: 19707
   udp: true
-- name: CA-http-16
+- name: CA-http-20
   type: http
   server: 67.43.228.250
   port: 19751
   udp: true
-- name: CA-http-17
+- name: CA-http-21
   type: http
   server: 72.10.160.90
   port: 22227
   udp: true
-- name: CA-http-18
+- name: CA-http-22
   type: http
   server: 67.43.228.250
   port: 4603
   udp: true
-- name: CA-http-19
+- name: CA-http-23
   type: http
   server: 72.10.160.90
   port: 14567
   udp: true
-- name: CA-http-20
+- name: CA-http-24
   type: http
   server: 72.10.160.91
   port: 15465
   udp: true
-- name: CA-http-21
+- name: CA-http-25
   type: http
   server: 67.43.228.254
   port: 2891
   udp: true
-- name: CA-http-22
+- name: CA-http-26
   type: http
   server: 72.10.160.91
   port: 24475
   udp: true
-- name: CA-http-23
+- name: CA-http-27
   type: http
   server: 72.10.160.90
   port: 32623
   udp: true
-- name: CA-http-24
+- name: CA-http-28
   type: http
   server: 67.43.236.18
   port: 31049
   udp: true
-- name: CA-http-25
+- name: CA-http-29
   type: http
   server: 72.10.164.178
   port: 8905
   udp: true
-- name: CA-http-26
+- name: CA-http-30
   type: http
   server: 72.10.164.178
   port: 22689
   udp: true
-- name: CA-http-27
+- name: CA-http-31
   type: http
   server: 72.10.164.178
   port: 27035
   udp: true
-- name: CA-http-28
+- name: CA-http-32
   type: http
   server: 72.10.160.91
   port: 1897
   udp: true
-- name: CA-http-29
+- name: CA-http-33
   type: http
   server: 72.10.164.178
   port: 15353
   udp: true
-- name: CA-http-30
+- name: CA-http-34
   type: http
   server: 72.10.160.91
   port: 5443
   udp: true
-- name: CA-http-31
+- name: CA-http-35
   type: http
   server: 72.10.160.171
   port: 16057
   udp: true
-- name: CA-http-32
+- name: CA-http-36
   type: http
   server: 72.10.160.92
   port: 7817
   udp: true
-- name: CA-http-33
+- name: CA-http-37
   type: http
   server: 67.43.236.18
   port: 18613
   udp: true
-- name: CA-http-34
+- name: CA-http-38
   type: http
   server: 72.10.164.178
   port: 23117
   udp: true
-- name: CA-http-35
+- name: CA-http-39
   type: http
   server: 72.10.160.90
   port: 3207
   udp: true
-- name: CA-http-36
+- name: CA-http-40
   type: http
   server: 67.43.236.19
   port: 17153
   udp: true
-- name: CA-http-37
+- name: CA-http-41
   type: http
   server: 52.233.18.16
   port: 3128
   udp: true
-- name: CA-http-38
+- name: CA-http-42
   type: http
   server: 72.10.160.170
   port: 11101
   udp: true
-- name: CA-http-39
+- name: CA-http-43
   type: http
   server: 72.10.160.90
   port: 13425
   udp: true
-- name: CA-http-40
+- name: CA-http-44
   type: http
   server: 67.43.236.19
   port: 10151
   udp: true
-- name: CA-http-41
+- name: CA-http-45
   type: http
   server: 67.43.236.18
   port: 22311
   udp: true
-- name: CA-http-42
+- name: CA-http-46
   type: http
   server: 67.43.236.18
   port: 1583
   udp: true
-- name: CA-http-43
+- name: CA-http-47
   type: http
   server: 72.10.160.170
   port: 21353
   udp: true
-- name: CA-http-44
+- name: CA-http-48
   type: http
   server: 72.10.160.90
   port: 31669
   udp: true
-- name: CA-http-45
+- name: CA-http-49
   type: http
   server: 67.43.236.18
   port: 12733
   udp: true
-- name: CA-socks5-46
+- name: CA-socks5-50
   type: socks5
   server: 192.95.33.162
   port: 24794
   udp: true
-- name: CA-http-47
+- name: CA-http-51
   type: http
   server: 155.138.130.128
   port: 8888
   udp: true
-- name: CA-http-48
+- name: CA-http-52
   type: http
   server: 15.235.53.20
   port: 28003
   udp: true
-- name: CA-http-49
+- name: CA-http-53
   type: http
   server: 15.235.9.224
   port: 28003
   udp: true
-- name: CA-http-50
+- name: CA-http-54
   type: http
   server: 149.57.28.9
   port: 9443
   udp: true
-- name: CA-http-51
+- name: CA-http-55
   type: http
   server: 155.138.144.61
   port: 8888
   udp: true
-- name: CA-http-52
+- name: CA-http-56
   type: http
   server: 51.161.79.152
   port: 8888
   udp: true
-- name: CA-http-53
+- name: CA-http-57
   type: http
   server: 216.128.177.20
   port: 8888
   udp: true
-- name: CA-http-54
+- name: CA-http-58
   type: http
   server: 15.235.10.43
   port: 28003
   udp: true
-- name: CA-http-55
+- name: CA-http-59
   type: http
   server: 216.128.183.100
   port: 8888
   udp: true
-- name: CA-http-56
+- name: CA-http-60
   type: http
   server: 216.128.177.59
   port: 8888
   udp: true
-- name: CA-http-57
+- name: CA-http-61
   type: http
   server: 155.138.159.63
   port: 8888
   udp: true
-- name: CA-http-58
+- name: CA-http-62
   type: http
   server: 149.57.28.10
   port: 9443
   udp: true
-- name: CA-http-59
+- name: CA-http-63
   type: http
   server: 155.138.149.154
   port: 8888
+  udp: true
+- name: TH-http-1
+  type: http
+  server: 223.204.176.23
+  port: 3128
+  udp: true
+- name: TH-http-2
+  type: http
+  server: 8.213.195.191
+  port: 8081
+  udp: true
+- name: TH-http-3
+  type: http
+  server: 8.213.222.247
+  port: 1080
+  udp: true
+- name: TH-http-4
+  type: http
+  server: 8.213.222.247
+  port: 8080
+  udp: true
+- name: TH-http-5
+  type: http
+  server: 8.213.215.187
+  port: 41890
   udp: true
 - name: US-http-1
   type: http
@@ -7419,26 +7464,6 @@ proxies:
   server: 8.212.151.166
   port: 80
   udp: true
-- name: TH-http-1
-  type: http
-  server: 8.213.195.191
-  port: 8081
-  udp: true
-- name: TH-http-2
-  type: http
-  server: 8.213.222.247
-  port: 1080
-  udp: true
-- name: TH-http-3
-  type: http
-  server: 8.213.222.247
-  port: 8080
-  udp: true
-- name: TH-http-4
-  type: http
-  server: 8.213.215.187
-  port: 41890
-  udp: true
 - name: CH-http-1
   type: http
   server: 185.191.236.162
@@ -7518,11 +7543,11 @@ proxy-groups:
   - CA-http-43
   - CA-http-44
   - CA-http-45
-  - CA-socks5-46
+  - CA-http-46
   - CA-http-47
   - CA-http-48
   - CA-http-49
-  - CA-http-50
+  - CA-socks5-50
   - CA-http-51
   - CA-http-52
   - CA-http-53
@@ -7532,6 +7557,18 @@ proxy-groups:
   - CA-http-57
   - CA-http-58
   - CA-http-59
+  - CA-http-60
+  - CA-http-61
+  - CA-http-62
+  - CA-http-63
+- name: TH
+  type: select
+  proxies:
+  - TH-http-1
+  - TH-http-2
+  - TH-http-3
+  - TH-http-4
+  - TH-http-5
 - name: US
   type: select
   proxies:
@@ -9116,13 +9153,6 @@ proxy-groups:
   - PH-http-6
   - PH-http-7
   - PH-http-8
-- name: TH
-  type: select
-  proxies:
-  - TH-http-1
-  - TH-http-2
-  - TH-http-3
-  - TH-http-4
 - name: CH
   type: select
   proxies:
@@ -9142,6 +9172,7 @@ proxy-groups:
   type: select
   proxies:
   - CA
+  - TH
   - US
   - CN
   - SG
@@ -9195,7 +9226,6 @@ proxy-groups:
   - LV
   - LB
   - PH
-  - TH
   - CH
   - CZ
   - MY
