@@ -1,4 +1,34 @@
 proxies:
+- name: FI-http-1
+  type: http
+  server: 135.181.115.167
+  port: 8118
+  udp: true
+- name: FI-http-2
+  type: http
+  server: 65.109.202.138
+  port: 1081
+  udp: true
+- name: FI-http-3
+  type: http
+  server: 65.109.202.138
+  port: 1080
+  udp: true
+- name: FI-http-4
+  type: http
+  server: 65.109.202.138
+  port: 8443
+  udp: true
+- name: FI-http-5
+  type: http
+  server: 65.109.40.163
+  port: 8443
+  udp: true
+- name: FI-http-6
+  type: http
+  server: 135.181.154.225
+  port: 80
+  udp: true
 - name: US-http-1
   type: http
   server: 47.251.87.74
@@ -6794,31 +6824,6 @@ proxies:
   server: 16.24.171.118
   port: 443
   udp: true
-- name: FI-http-1
-  type: http
-  server: 65.109.202.138
-  port: 1081
-  udp: true
-- name: FI-http-2
-  type: http
-  server: 65.109.202.138
-  port: 1080
-  udp: true
-- name: FI-http-3
-  type: http
-  server: 65.109.202.138
-  port: 8443
-  udp: true
-- name: FI-http-4
-  type: http
-  server: 65.109.40.163
-  port: 8443
-  udp: true
-- name: FI-http-5
-  type: http
-  server: 135.181.154.225
-  port: 80
-  udp: true
 - name: EG-http-1
   type: http
   server: 154.236.177.102
@@ -7240,6 +7245,15 @@ proxies:
   port: 8080
   udp: true
 proxy-groups:
+- name: FI
+  type: select
+  proxies:
+  - FI-http-1
+  - FI-http-2
+  - FI-http-3
+  - FI-http-4
+  - FI-http-5
+  - FI-http-6
 - name: US
   type: select
   proxies:
@@ -8689,14 +8703,6 @@ proxy-groups:
   type: select
   proxies:
   - BH-http-1
-- name: FI
-  type: select
-  proxies:
-  - FI-http-1
-  - FI-http-2
-  - FI-http-3
-  - FI-http-4
-  - FI-http-5
 - name: EG
   type: select
   proxies:
@@ -8865,6 +8871,7 @@ proxy-groups:
 - name: All-Countries
   type: select
   proxies:
+  - FI
   - US
   - CN
   - DE
@@ -8895,7 +8902,6 @@ proxy-groups:
   - UA
   - LT
   - BH
-  - FI
   - EG
   - RU
   - TZ
