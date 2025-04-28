@@ -1,4 +1,49 @@
 proxies:
+- name: VN-http-1
+  type: http
+  server: 117.5.21.34
+  port: 5101
+  udp: true
+- name: VN-http-2
+  type: http
+  server: 113.172.124.123
+  port: 1005
+  udp: true
+- name: VN-http-3
+  type: http
+  server: 171.253.55.112
+  port: 20276
+  udp: true
+- name: VN-http-4
+  type: http
+  server: 113.181.61.169
+  port: 5110
+  udp: true
+- name: VN-http-5
+  type: http
+  server: 14.247.157.114
+  port: 5109
+  udp: true
+- name: VN-http-6
+  type: http
+  server: 116.105.78.226
+  port: 10054
+  udp: true
+- name: VN-http-7
+  type: http
+  server: 123.18.234.116
+  port: 8080
+  udp: true
+- name: VN-http-8
+  type: http
+  server: 123.30.154.171
+  port: 7777
+  udp: true
+- name: VN-http-9
+  type: http
+  server: 222.252.194.204
+  port: 8080
+  udp: true
 - name: IR-socks5-1
   type: socks5
   server: 185.93.89.170
@@ -1388,46 +1433,6 @@ proxies:
   type: socks5
   server: 46.105.105.223
   port: 63462
-  udp: true
-- name: VN-http-1
-  type: http
-  server: 113.172.124.123
-  port: 1005
-  udp: true
-- name: VN-http-2
-  type: http
-  server: 171.253.55.112
-  port: 20276
-  udp: true
-- name: VN-http-3
-  type: http
-  server: 113.181.61.169
-  port: 5110
-  udp: true
-- name: VN-http-4
-  type: http
-  server: 14.247.157.114
-  port: 5109
-  udp: true
-- name: VN-http-5
-  type: http
-  server: 116.105.78.226
-  port: 10054
-  udp: true
-- name: VN-http-6
-  type: http
-  server: 123.18.234.116
-  port: 8080
-  udp: true
-- name: VN-http-7
-  type: http
-  server: 123.30.154.171
-  port: 7777
-  udp: true
-- name: VN-http-8
-  type: http
-  server: 222.252.194.204
-  port: 8080
   udp: true
 - name: RO-http-1
   type: http
@@ -4095,6 +4100,18 @@ proxies:
   port: 80
   udp: true
 proxy-groups:
+- name: VN
+  type: select
+  proxies:
+  - VN-http-1
+  - VN-http-2
+  - VN-http-3
+  - VN-http-4
+  - VN-http-5
+  - VN-http-6
+  - VN-http-7
+  - VN-http-8
+  - VN-http-9
 - name: IR
   type: select
   proxies:
@@ -4388,17 +4405,6 @@ proxy-groups:
   - FR-socks5-13
   - FR-socks5-14
   - FR-socks5-15
-- name: VN
-  type: select
-  proxies:
-  - VN-http-1
-  - VN-http-2
-  - VN-http-3
-  - VN-http-4
-  - VN-http-5
-  - VN-http-6
-  - VN-http-7
-  - VN-http-8
 - name: RO
   type: select
   proxies:
@@ -5064,12 +5070,12 @@ proxy-groups:
 - name: All-Countries
   type: select
   proxies:
+  - VN
   - IR
   - CN
   - CA
   - AT
   - FR
-  - VN
   - RO
   - GB
   - BG
