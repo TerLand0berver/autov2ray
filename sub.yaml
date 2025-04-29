@@ -814,17 +814,47 @@ proxies:
   server: 47.90.149.238
   port: 3128
   udp: true
-- name: US-http-164
+- name: US-socks5-164
+  type: socks5
+  server: 70.166.167.55
+  port: 57745
+  udp: true
+- name: US-socks5-165
+  type: socks5
+  server: 192.111.138.29
+  port: 4145
+  udp: true
+- name: US-socks5-166
+  type: socks5
+  server: 72.37.217.3
+  port: 4145
+  udp: true
+- name: US-socks5-167
+  type: socks5
+  server: 98.152.200.61
+  port: 8081
+  udp: true
+- name: US-http-168
+  type: http
+  server: 47.252.11.233
+  port: 3128
+  udp: true
+- name: US-http-169
+  type: http
+  server: 47.90.149.238
+  port: 3128
+  udp: true
+- name: US-http-170
   type: http
   server: 47.237.92.86
   port: 8080
   udp: true
-- name: US-socks5-165
+- name: US-socks5-171
   type: socks5
   server: 72.195.34.58
   port: 4145
   udp: true
-- name: US-http-166
+- name: US-http-172
   type: http
   server: 162.223.90.130
   port: 80
@@ -2289,6 +2319,11 @@ proxies:
   server: 8.211.194.85
   port: 8443
   udp: true
+- name: GB-http-37
+  type: http
+  server: 8.211.194.85
+  port: 8443
+  udp: true
 - name: DE-socks5-1
   type: socks5
   server: 91.99.72.171
@@ -2485,6 +2520,11 @@ proxies:
   port: 8443
   udp: true
 - name: DE-http-40
+  type: http
+  server: 8.211.42.167
+  port: 80
+  udp: true
+- name: DE-http-41
   type: http
   server: 8.211.42.167
   port: 80
@@ -4206,9 +4246,15 @@ proxy-groups:
   - US-socks5-161
   - US-http-162
   - US-http-163
-  - US-http-164
+  - US-socks5-164
   - US-socks5-165
-  - US-http-166
+  - US-socks5-166
+  - US-socks5-167
+  - US-http-168
+  - US-http-169
+  - US-http-170
+  - US-socks5-171
+  - US-http-172
 - name: CA
   type: select
   proxies:
@@ -4516,6 +4562,7 @@ proxy-groups:
   - GB-http-34
   - GB-http-35
   - GB-http-36
+  - GB-http-37
 - name: DE
   type: select
   proxies:
@@ -4559,6 +4606,7 @@ proxy-groups:
   - DE-http-38
   - DE-http-39
   - DE-http-40
+  - DE-http-41
 - name: ID
   type: select
   proxies:
