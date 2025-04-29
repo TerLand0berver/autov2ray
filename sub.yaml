@@ -1809,12 +1809,17 @@ proxies:
   server: 47.90.149.238
   port: 3128
   udp: true
-- name: US-socks5-163
+- name: US-http-163
+  type: http
+  server: 47.237.92.86
+  port: 8080
+  udp: true
+- name: US-socks5-164
   type: socks5
   server: 72.195.34.58
   port: 4145
   udp: true
-- name: US-http-164
+- name: US-http-165
   type: http
   server: 162.223.90.130
   port: 80
@@ -2386,55 +2391,50 @@ proxies:
   udp: true
 - name: DE-http-32
   type: http
-  server: 87.249.132.158
+  server: 87.249.132.131
   port: 9002
   udp: true
 - name: DE-http-33
   type: http
-  server: 87.249.132.131
-  port: 9002
-  udp: true
-- name: DE-http-34
-  type: http
   server: 51.195.107.167
   port: 8000
   udp: true
-- name: DE-http-35
+- name: DE-http-34
   type: http
   server: 138.201.172.57
   port: 8888
   udp: true
-- name: DE-http-36
+- name: DE-http-35
   type: http
   server: 87.249.132.137
   port: 9002
   udp: true
-- name: DE-http-37
+- name: DE-http-36
   type: http
   server: 38.242.202.236
   port: 8080
   udp: true
-- name: DE-http-38
+- name: DE-http-37
   type: http
   server: 8.209.96.245
   port: 3128
   udp: true
-- name: DE-http-39
+- name: DE-http-38
   type: http
   server: 8.211.49.86
   port: 100
   udp: true
-- name: DE-http-40
+- name: DE-http-39
   type: http
   server: 8.211.51.115
   port: 9098
   udp: true
-- name: DE-http-41
+- name: DE-http-40
   type: http
   server: 47.91.89.3
   port: 8443
   udp: true
-- name: DE-http-42
+- name: DE-http-41
   type: http
   server: 8.211.42.167
   port: 80
@@ -2658,6 +2658,11 @@ proxies:
   type: http
   server: 47.238.60.156
   port: 8008
+  udp: true
+- name: HK-http-20
+  type: http
+  server: 8.210.17.35
+  port: 8082
   udp: true
 - name: IR-socks5-1
   type: socks5
@@ -3126,35 +3131,40 @@ proxies:
   udp: true
 - name: NL-http-10
   type: http
-  server: 134.209.89.168
-  port: 8888
+  server: 84.17.47.126
+  port: 9002
   udp: true
 - name: NL-http-11
   type: http
-  server: 188.166.82.32
+  server: 134.209.89.168
   port: 8888
   udp: true
 - name: NL-http-12
   type: http
+  server: 188.166.82.32
+  port: 8888
+  udp: true
+- name: NL-http-13
+  type: http
   server: 84.17.47.123
   port: 9002
   udp: true
-- name: NL-http-13
+- name: NL-http-14
   type: http
   server: 188.166.90.39
   port: 8888
   udp: true
-- name: NL-http-14
+- name: NL-http-15
   type: http
   server: 147.75.34.103
   port: 10002
   udp: true
-- name: NL-http-15
+- name: NL-http-16
   type: http
   server: 188.166.89.178
   port: 8888
   udp: true
-- name: NL-http-16
+- name: NL-http-17
   type: http
   server: 45.140.143.77
   port: 18080
@@ -3431,250 +3441,255 @@ proxies:
   udp: true
 - name: RO-http-45
   type: http
-  server: 84.239.49.187
+  server: 84.239.49.43
   port: 9002
   udp: true
 - name: RO-http-46
   type: http
-  server: 84.239.49.236
+  server: 84.239.49.155
   port: 9002
   udp: true
 - name: RO-http-47
   type: http
-  server: 84.239.49.58
+  server: 84.239.49.187
   port: 9002
   udp: true
 - name: RO-http-48
   type: http
-  server: 193.176.84.24
+  server: 84.239.49.236
   port: 9002
   udp: true
 - name: RO-http-49
   type: http
-  server: 84.239.49.61
+  server: 84.239.49.58
   port: 9002
   udp: true
 - name: RO-http-50
   type: http
-  server: 84.239.14.170
+  server: 193.176.84.24
   port: 9002
   udp: true
 - name: RO-http-51
   type: http
-  server: 84.239.49.49
+  server: 84.239.49.61
   port: 9002
   udp: true
 - name: RO-http-52
   type: http
-  server: 84.239.49.230
+  server: 84.239.14.170
   port: 9002
   udp: true
 - name: RO-http-53
   type: http
-  server: 84.239.49.239
+  server: 84.239.49.49
   port: 9002
   udp: true
 - name: RO-http-54
   type: http
-  server: 84.239.49.170
+  server: 84.239.49.230
   port: 9002
   udp: true
 - name: RO-http-55
   type: http
-  server: 84.239.49.53
+  server: 84.239.49.239
   port: 9002
   udp: true
 - name: RO-http-56
   type: http
-  server: 84.239.49.181
+  server: 84.239.49.170
   port: 9002
   udp: true
 - name: RO-http-57
   type: http
-  server: 193.176.84.9
+  server: 84.239.49.53
   port: 9002
   udp: true
 - name: RO-http-58
   type: http
-  server: 84.239.49.242
+  server: 84.239.49.181
   port: 9002
   udp: true
 - name: RO-http-59
   type: http
-  server: 193.176.84.29
+  server: 193.176.84.9
   port: 9002
   udp: true
 - name: RO-http-60
   type: http
-  server: 84.239.49.168
+  server: 84.239.49.242
   port: 9002
   udp: true
 - name: RO-http-61
   type: http
-  server: 84.239.49.158
+  server: 193.176.84.29
   port: 9002
   udp: true
 - name: RO-http-62
   type: http
-  server: 84.239.49.208
+  server: 84.239.49.168
   port: 9002
   udp: true
 - name: RO-http-63
   type: http
-  server: 84.239.49.54
+  server: 84.239.49.158
   port: 9002
   udp: true
 - name: RO-http-64
   type: http
-  server: 84.239.49.200
+  server: 84.239.49.208
   port: 9002
   udp: true
 - name: RO-http-65
   type: http
-  server: 84.239.14.162
+  server: 84.239.49.54
   port: 9002
   udp: true
 - name: RO-http-66
   type: http
-  server: 84.239.49.202
+  server: 84.239.49.200
   port: 9002
   udp: true
 - name: RO-http-67
   type: http
-  server: 84.239.49.226
+  server: 84.239.14.162
   port: 9002
   udp: true
 - name: RO-http-68
   type: http
-  server: 84.239.49.47
+  server: 84.239.49.202
   port: 9002
   udp: true
 - name: RO-http-69
   type: http
-  server: 84.239.14.176
+  server: 84.239.49.226
   port: 9002
   udp: true
 - name: RO-http-70
   type: http
-  server: 84.239.49.212
+  server: 84.239.49.47
   port: 9002
   udp: true
 - name: RO-http-71
   type: http
-  server: 84.239.49.232
+  server: 84.239.14.176
   port: 9002
   udp: true
 - name: RO-http-72
   type: http
-  server: 84.239.49.209
+  server: 84.239.49.212
   port: 9002
   udp: true
 - name: RO-http-73
   type: http
-  server: 193.176.84.20
+  server: 84.239.49.232
   port: 9002
   udp: true
 - name: RO-http-74
   type: http
-  server: 84.239.49.157
+  server: 84.239.49.209
   port: 9002
   udp: true
 - name: RO-http-75
   type: http
-  server: 193.176.84.32
+  server: 193.176.84.20
   port: 9002
   udp: true
 - name: RO-http-76
   type: http
-  server: 84.239.49.233
+  server: 84.239.49.157
   port: 9002
   udp: true
 - name: RO-http-77
   type: http
-  server: 84.239.49.163
+  server: 193.176.84.32
   port: 9002
   udp: true
 - name: RO-http-78
   type: http
-  server: 193.176.84.34
+  server: 84.239.49.233
   port: 9002
   udp: true
 - name: RO-http-79
   type: http
-  server: 84.239.49.190
+  server: 84.239.49.163
   port: 9002
   udp: true
 - name: RO-http-80
   type: http
-  server: 84.239.49.37
+  server: 193.176.84.34
   port: 9002
   udp: true
 - name: RO-http-81
   type: http
-  server: 84.239.49.37
+  server: 84.239.49.190
   port: 9002
   udp: true
 - name: RO-http-82
   type: http
-  server: 84.239.49.218
+  server: 84.239.49.37
   port: 9002
   udp: true
 - name: RO-http-83
   type: http
-  server: 193.176.84.35
+  server: 84.239.49.218
   port: 9002
   udp: true
 - name: RO-http-84
   type: http
-  server: 84.239.49.162
+  server: 193.176.84.35
   port: 9002
   udp: true
 - name: RO-http-85
   type: http
-  server: 84.239.49.191
+  server: 84.239.49.162
   port: 9002
   udp: true
 - name: RO-http-86
   type: http
-  server: 84.239.49.179
+  server: 84.239.49.191
   port: 9002
   udp: true
 - name: RO-http-87
   type: http
-  server: 84.239.49.246
+  server: 84.239.49.179
   port: 9002
   udp: true
 - name: RO-http-88
   type: http
-  server: 84.239.49.215
+  server: 84.239.49.246
   port: 9002
   udp: true
 - name: RO-http-89
   type: http
-  server: 84.239.49.203
+  server: 84.239.49.215
   port: 9002
   udp: true
 - name: RO-http-90
   type: http
-  server: 84.239.14.152
+  server: 84.239.49.203
   port: 9002
   udp: true
 - name: RO-http-91
   type: http
-  server: 84.239.49.243
+  server: 84.239.14.152
   port: 9002
   udp: true
 - name: RO-http-92
   type: http
-  server: 84.239.49.50
+  server: 84.239.49.243
   port: 9002
   udp: true
 - name: RO-http-93
   type: http
-  server: 193.176.84.10
+  server: 84.239.49.50
   port: 9002
   udp: true
 - name: RO-http-94
+  type: http
+  server: 193.176.84.10
+  port: 9002
+  udp: true
+- name: RO-http-95
   type: http
   server: 84.239.49.156
   port: 9002
@@ -3708,6 +3723,11 @@ proxies:
   type: http
   server: 133.18.234.13
   port: 80
+  udp: true
+- name: JP-http-7
+  type: http
+  server: 8.221.138.111
+  port: 1080
   udp: true
 - name: TZ-http-1
   type: http
@@ -3820,11 +3840,6 @@ proxies:
   port: 9443
   udp: true
 - name: EE-http-1
-  type: http
-  server: 165.231.141.74
-  port: 9443
-  udp: true
-- name: EE-http-2
   type: http
   server: 165.231.141.74
   port: 9443
@@ -4386,8 +4401,9 @@ proxy-groups:
   - US-socks5-160
   - US-http-161
   - US-http-162
-  - US-socks5-163
-  - US-http-164
+  - US-http-163
+  - US-socks5-164
+  - US-http-165
 - name: CA
   type: select
   proxies:
@@ -4523,7 +4539,6 @@ proxy-groups:
   - DE-http-39
   - DE-http-40
   - DE-http-41
-  - DE-http-42
 - name: ID
   type: select
   proxies:
@@ -4580,6 +4595,7 @@ proxy-groups:
   - HK-http-17
   - HK-http-18
   - HK-http-19
+  - HK-http-20
 - name: IR
   type: select
   proxies:
@@ -4719,6 +4735,7 @@ proxy-groups:
   - NL-http-14
   - NL-http-15
   - NL-http-16
+  - NL-http-17
 - name: ZA
   type: select
   proxies:
@@ -4841,6 +4858,7 @@ proxy-groups:
   - RO-http-92
   - RO-http-93
   - RO-http-94
+  - RO-http-95
 - name: JP
   type: select
   proxies:
@@ -4850,6 +4868,7 @@ proxy-groups:
   - JP-http-4
   - JP-http-5
   - JP-http-6
+  - JP-http-7
 - name: TZ
   type: select
   proxies:
@@ -4900,7 +4919,6 @@ proxy-groups:
   type: select
   proxies:
   - EE-http-1
-  - EE-http-2
 - name: AE
   type: select
   proxies:
