@@ -3916,20 +3916,15 @@ proxies:
   udp: true
 - name: US-http-226
   type: http
-  server: 47.90.149.238
-  port: 3128
-  udp: true
-- name: US-http-227
-  type: http
   server: 47.237.92.86
   port: 8080
   udp: true
-- name: US-socks5-228
+- name: US-socks5-227
   type: socks5
   server: 72.195.34.58
   port: 4145
   udp: true
-- name: US-http-229
+- name: US-http-228
   type: http
   server: 162.223.90.130
   port: 80
@@ -6403,9 +6398,8 @@ proxy-groups:
   - US-socks5-224
   - US-http-225
   - US-http-226
-  - US-http-227
-  - US-socks5-228
-  - US-http-229
+  - US-socks5-227
+  - US-http-228
 - name: ES
   type: select
   proxies:
