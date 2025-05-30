@@ -1,130 +1,135 @@
 proxies:
 - name: IR-socks5-1
   type: socks5
+  server: 185.93.89.150
+  port: 15896
+  udp: true
+- name: IR-socks5-2
+  type: socks5
   server: 185.93.89.171
   port: 10230
   udp: true
-- name: IR-socks5-2
+- name: IR-socks5-3
   type: socks5
   server: 185.93.89.177
   port: 4128
   udp: true
-- name: IR-socks5-3
+- name: IR-socks5-4
   type: socks5
   server: 185.93.89.181
   port: 4366
   udp: true
-- name: IR-socks5-4
+- name: IR-socks5-5
   type: socks5
   server: 185.93.89.183
   port: 4426
   udp: true
-- name: IR-socks5-5
+- name: IR-socks5-6
   type: socks5
   server: 185.93.89.146
   port: 4248
   udp: true
-- name: IR-socks5-6
+- name: IR-socks5-7
   type: socks5
   server: 185.93.89.155
   port: 32883
   udp: true
-- name: IR-socks5-7
+- name: IR-socks5-8
   type: socks5
   server: 185.93.89.145
   port: 23483
   udp: true
-- name: IR-socks5-8
+- name: IR-socks5-9
   type: socks5
   server: 185.93.89.181
   port: 13634
   udp: true
-- name: IR-socks5-9
+- name: IR-socks5-10
   type: socks5
   server: 185.93.89.149
   port: 9963
   udp: true
-- name: IR-socks5-10
+- name: IR-socks5-11
   type: socks5
   server: 185.93.89.166
   port: 7734
   udp: true
-- name: IR-socks5-11
+- name: IR-socks5-12
   type: socks5
   server: 185.93.89.144
   port: 17544
   udp: true
-- name: IR-socks5-12
+- name: IR-socks5-13
   type: socks5
   server: 185.93.89.156
   port: 4904
   udp: true
-- name: IR-socks5-13
+- name: IR-socks5-14
   type: socks5
   server: 185.93.89.149
   port: 4453
   udp: true
-- name: IR-socks5-14
+- name: IR-socks5-15
   type: socks5
   server: 185.93.89.156
   port: 4025
   udp: true
-- name: IR-socks5-15
+- name: IR-socks5-16
   type: socks5
   server: 185.93.89.155
   port: 4063
   udp: true
-- name: IR-socks5-16
+- name: IR-socks5-17
   type: socks5
   server: 185.93.89.145
   port: 6011
   udp: true
-- name: IR-socks5-17
+- name: IR-socks5-18
   type: socks5
   server: 185.93.89.190
   port: 4079
   udp: true
-- name: IR-socks5-18
+- name: IR-socks5-19
   type: socks5
   server: 185.93.89.146
   port: 4439
   udp: true
-- name: IR-socks5-19
+- name: IR-socks5-20
   type: socks5
   server: 185.93.89.149
   port: 7381
   udp: true
-- name: IR-http-20
+- name: IR-http-21
   type: http
   server: 81.12.96.209
   port: 80
   udp: true
-- name: IR-http-21
+- name: IR-http-22
   type: http
   server: 88.135.72.7
   port: 80
   udp: true
-- name: IR-http-22
+- name: IR-http-23
   type: http
   server: 80.249.112.166
   port: 80
   udp: true
-- name: IR-http-23
+- name: IR-http-24
   type: http
   server: 80.249.112.164
   port: 80
   udp: true
-- name: IR-http-24
+- name: IR-http-25
   type: http
   server: 31.47.58.37
   port: 80
   udp: true
-- name: IR-http-25
+- name: IR-http-26
   type: http
   server: 185.105.102.179
   port: 80
   udp: true
-- name: IR-http-26
+- name: IR-http-27
   type: http
   server: 80.249.112.162
   port: 80
@@ -4492,13 +4497,14 @@ proxy-groups:
   - IR-socks5-17
   - IR-socks5-18
   - IR-socks5-19
-  - IR-http-20
+  - IR-socks5-20
   - IR-http-21
   - IR-http-22
   - IR-http-23
   - IR-http-24
   - IR-http-25
   - IR-http-26
+  - IR-http-27
 - name: GB
   type: select
   proxies:
