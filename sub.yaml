@@ -1,138 +1,133 @@
 proxies:
-- name: IR-socks5-1
+- name: GB-socks5-1
+  type: socks5
+  server: 185.93.89.162
+  port: 4265
+  udp: true
+- name: GB-socks5-2
+  type: socks5
+  server: 185.93.89.177
+  port: 34493
+  udp: true
+- name: GB-socks5-3
   type: socks5
   server: 185.93.89.187
   port: 18970
   udp: true
-- name: IR-socks5-2
+- name: GB-socks5-4
   type: socks5
   server: 185.93.89.182
   port: 6856
   udp: true
-- name: IR-socks5-3
+- name: GB-socks5-5
   type: socks5
-  server: 185.93.89.187
-  port: 4126
+  server: 185.93.89.181
+  port: 4050
   udp: true
-- name: IR-socks5-4
-  type: socks5
-  server: 185.93.89.182
-  port: 9200
-  udp: true
-- name: IR-socks5-5
-  type: socks5
-  server: 185.93.89.155
-  port: 7732
-  udp: true
-- name: IR-socks5-6
-  type: socks5
-  server: 185.93.89.145
-  port: 4566
-  udp: true
-- name: IR-socks5-7
-  type: socks5
-  server: 185.93.89.150
-  port: 11812
-  udp: true
-- name: IR-socks5-8
-  type: socks5
-  server: 185.93.89.145
-  port: 5093
-  udp: true
-- name: IR-socks5-9
-  type: socks5
-  server: 185.93.89.176
-  port: 4981
-  udp: true
-- name: IR-socks5-10
-  type: socks5
-  server: 185.93.89.166
-  port: 9094
-  udp: true
-- name: IR-socks5-11
-  type: socks5
-  server: 185.93.89.189
-  port: 6316
-  udp: true
-- name: IR-socks5-12
-  type: socks5
-  server: 185.93.89.187
-  port: 6614
-  udp: true
-- name: IR-socks5-13
-  type: socks5
-  server: 185.93.89.189
-  port: 9031
-  udp: true
-- name: IR-socks5-14
+- name: GB-socks5-6
   type: socks5
   server: 185.93.89.146
-  port: 5791
+  port: 4013
   udp: true
-- name: IR-socks5-15
+- name: GB-socks5-7
   type: socks5
-  server: 185.93.89.158
-  port: 9185
+  server: 185.93.89.152
+  port: 13443
   udp: true
-- name: IR-socks5-16
+- name: GB-socks5-8
+  type: socks5
+  server: 185.93.89.180
+  port: 4085
+  udp: true
+- name: GB-socks5-9
+  type: socks5
+  server: 185.93.89.164
+  port: 9520
+  udp: true
+- name: GB-socks5-10
+  type: socks5
+  server: 185.93.89.170
+  port: 4695
+  udp: true
+- name: GB-socks5-11
   type: socks5
   server: 185.93.89.188
-  port: 18168
+  port: 4304
   udp: true
-- name: IR-socks5-17
+- name: GB-socks5-12
   type: socks5
-  server: 185.93.89.144
-  port: 24225
+  server: 185.93.89.187
+  port: 4005
   udp: true
-- name: IR-socks5-18
+- name: GB-socks5-13
   type: socks5
-  server: 185.93.89.163
-  port: 5613
+  server: 212.84.160.102
+  port: 1080
   udp: true
-- name: IR-socks5-19
+- name: GB-socks5-14
   type: socks5
-  server: 185.93.89.190
-  port: 4025
+  server: 178.62.116.7
+  port: 1080
   udp: true
-- name: IR-socks5-20
-  type: socks5
-  server: 185.93.89.166
-  port: 7808
-  udp: true
-- name: IR-socks5-21
-  type: socks5
-  server: 185.93.89.149
-  port: 31207
-  udp: true
-- name: IR-http-22
+- name: GB-http-15
   type: http
-  server: 80.249.112.166
+  server: 78.141.244.9
+  port: 8888
+  udp: true
+- name: GB-http-16
+  type: http
+  server: 192.248.152.39
+  port: 8888
+  udp: true
+- name: GB-http-17
+  type: http
+  server: 193.36.118.242
+  port: 9443
+  udp: true
+- name: GB-http-18
+  type: http
+  server: 193.36.118.210
+  port: 9443
+  udp: true
+- name: GB-http-19
+  type: http
+  server: 45.63.97.57
+  port: 8888
+  udp: true
+- name: GB-http-20
+  type: http
+  server: 134.209.29.120
   port: 80
   udp: true
-- name: IR-http-23
+- name: GB-http-21
   type: http
-  server: 80.249.112.164
-  port: 80
+  server: 54.37.214.253
+  port: 8080
   udp: true
-- name: IR-http-24
+- name: GB-http-22
   type: http
-  server: 80.249.112.163
-  port: 80
+  server: 8.211.194.78
+  port: 8081
   udp: true
-- name: IR-http-25
+- name: GB-http-23
   type: http
-  server: 31.47.58.37
-  port: 80
+  server: 8.211.200.183
+  port: 8080
   udp: true
-- name: IR-http-26
+- name: GB-http-24
   type: http
-  server: 185.105.102.179
-  port: 80
+  server: 8.211.195.139
+  port: 3128
   udp: true
-- name: IR-http-27
+- name: GB-http-25
   type: http
-  server: 80.249.112.162
-  port: 80
+  server: 8.211.195.173
+  port: 8080
+  udp: true
+- name: GB-http-26
+  type: http
+  server: 8.211.194.85
+  port: 8443
   udp: true
 - name: DE-socks5-1
   type: socks5
@@ -1299,115 +1294,130 @@ proxies:
   server: 162.223.90.130
   port: 80
   udp: true
-- name: GB-socks5-1
-  type: socks5
-  server: 185.93.89.181
-  port: 4050
-  udp: true
-- name: GB-socks5-2
-  type: socks5
-  server: 185.93.89.146
-  port: 4013
-  udp: true
-- name: GB-socks5-3
-  type: socks5
-  server: 185.93.89.152
-  port: 13443
-  udp: true
-- name: GB-socks5-4
-  type: socks5
-  server: 185.93.89.180
-  port: 4085
-  udp: true
-- name: GB-socks5-5
-  type: socks5
-  server: 185.93.89.164
-  port: 9520
-  udp: true
-- name: GB-socks5-6
-  type: socks5
-  server: 185.93.89.170
-  port: 4695
-  udp: true
-- name: GB-socks5-7
-  type: socks5
-  server: 185.93.89.188
-  port: 4304
-  udp: true
-- name: GB-socks5-8
+- name: IR-socks5-1
   type: socks5
   server: 185.93.89.187
-  port: 4005
+  port: 4126
   udp: true
-- name: GB-socks5-9
+- name: IR-socks5-2
   type: socks5
-  server: 212.84.160.102
-  port: 1080
+  server: 185.93.89.182
+  port: 9200
   udp: true
-- name: GB-socks5-10
+- name: IR-socks5-3
   type: socks5
-  server: 178.62.116.7
-  port: 1080
+  server: 185.93.89.155
+  port: 7732
   udp: true
-- name: GB-http-11
-  type: http
-  server: 78.141.244.9
-  port: 8888
+- name: IR-socks5-4
+  type: socks5
+  server: 185.93.89.145
+  port: 4566
   udp: true
-- name: GB-http-12
-  type: http
-  server: 192.248.152.39
-  port: 8888
+- name: IR-socks5-5
+  type: socks5
+  server: 185.93.89.150
+  port: 11812
   udp: true
-- name: GB-http-13
-  type: http
-  server: 193.36.118.242
-  port: 9443
+- name: IR-socks5-6
+  type: socks5
+  server: 185.93.89.145
+  port: 5093
   udp: true
-- name: GB-http-14
-  type: http
-  server: 193.36.118.210
-  port: 9443
+- name: IR-socks5-7
+  type: socks5
+  server: 185.93.89.176
+  port: 4981
   udp: true
-- name: GB-http-15
-  type: http
-  server: 45.63.97.57
-  port: 8888
+- name: IR-socks5-8
+  type: socks5
+  server: 185.93.89.166
+  port: 9094
   udp: true
-- name: GB-http-16
+- name: IR-socks5-9
+  type: socks5
+  server: 185.93.89.189
+  port: 6316
+  udp: true
+- name: IR-socks5-10
+  type: socks5
+  server: 185.93.89.187
+  port: 6614
+  udp: true
+- name: IR-socks5-11
+  type: socks5
+  server: 185.93.89.189
+  port: 9031
+  udp: true
+- name: IR-socks5-12
+  type: socks5
+  server: 185.93.89.146
+  port: 5791
+  udp: true
+- name: IR-socks5-13
+  type: socks5
+  server: 185.93.89.158
+  port: 9185
+  udp: true
+- name: IR-socks5-14
+  type: socks5
+  server: 185.93.89.188
+  port: 18168
+  udp: true
+- name: IR-socks5-15
+  type: socks5
+  server: 185.93.89.144
+  port: 24225
+  udp: true
+- name: IR-socks5-16
+  type: socks5
+  server: 185.93.89.163
+  port: 5613
+  udp: true
+- name: IR-socks5-17
+  type: socks5
+  server: 185.93.89.190
+  port: 4025
+  udp: true
+- name: IR-socks5-18
+  type: socks5
+  server: 185.93.89.166
+  port: 7808
+  udp: true
+- name: IR-socks5-19
+  type: socks5
+  server: 185.93.89.149
+  port: 31207
+  udp: true
+- name: IR-http-20
   type: http
-  server: 134.209.29.120
+  server: 80.249.112.166
   port: 80
   udp: true
-- name: GB-http-17
+- name: IR-http-21
   type: http
-  server: 54.37.214.253
-  port: 8080
+  server: 80.249.112.164
+  port: 80
   udp: true
-- name: GB-http-18
+- name: IR-http-22
   type: http
-  server: 8.211.194.78
-  port: 8081
+  server: 80.249.112.163
+  port: 80
   udp: true
-- name: GB-http-19
+- name: IR-http-23
   type: http
-  server: 8.211.200.183
-  port: 8080
+  server: 31.47.58.37
+  port: 80
   udp: true
-- name: GB-http-20
+- name: IR-http-24
   type: http
-  server: 8.211.195.139
-  port: 3128
+  server: 185.105.102.179
+  port: 80
   udp: true
-- name: GB-http-21
+- name: IR-http-25
   type: http
-  server: 8.211.195.173
-  port: 8080
-  udp: true
-- name: GB-http-22
-  type: http
-  server: 8.211.194.85
-  port: 8443
+  server: 80.249.112.162
+  port: 80
   udp: true
 - name: FR-socks5-1
   type: socks5
@@ -3645,36 +3655,35 @@ proxies:
   port: 8080
   udp: true
 proxy-groups:
-- name: IR
+- name: GB
   type: select
   proxies:
-  - IR-socks5-1
-  - IR-socks5-2
-  - IR-socks5-3
-  - IR-socks5-4
-  - IR-socks5-5
-  - IR-socks5-6
-  - IR-socks5-7
-  - IR-socks5-8
-  - IR-socks5-9
-  - IR-socks5-10
-  - IR-socks5-11
-  - IR-socks5-12
-  - IR-socks5-13
-  - IR-socks5-14
-  - IR-socks5-15
-  - IR-socks5-16
-  - IR-socks5-17
-  - IR-socks5-18
-  - IR-socks5-19
-  - IR-socks5-20
-  - IR-socks5-21
-  - IR-http-22
-  - IR-http-23
-  - IR-http-24
-  - IR-http-25
-  - IR-http-26
-  - IR-http-27
+  - GB-socks5-1
+  - GB-socks5-2
+  - GB-socks5-3
+  - GB-socks5-4
+  - GB-socks5-5
+  - GB-socks5-6
+  - GB-socks5-7
+  - GB-socks5-8
+  - GB-socks5-9
+  - GB-socks5-10
+  - GB-socks5-11
+  - GB-socks5-12
+  - GB-socks5-13
+  - GB-socks5-14
+  - GB-http-15
+  - GB-http-16
+  - GB-http-17
+  - GB-http-18
+  - GB-http-19
+  - GB-http-20
+  - GB-http-21
+  - GB-http-22
+  - GB-http-23
+  - GB-http-24
+  - GB-http-25
+  - GB-http-26
 - name: DE
   type: select
   proxies:
@@ -3920,31 +3929,34 @@ proxy-groups:
   - US-http-145
   - US-socks5-146
   - US-http-147
-- name: GB
+- name: IR
   type: select
   proxies:
-  - GB-socks5-1
-  - GB-socks5-2
-  - GB-socks5-3
-  - GB-socks5-4
-  - GB-socks5-5
-  - GB-socks5-6
-  - GB-socks5-7
-  - GB-socks5-8
-  - GB-socks5-9
-  - GB-socks5-10
-  - GB-http-11
-  - GB-http-12
-  - GB-http-13
-  - GB-http-14
-  - GB-http-15
-  - GB-http-16
-  - GB-http-17
-  - GB-http-18
-  - GB-http-19
-  - GB-http-20
-  - GB-http-21
-  - GB-http-22
+  - IR-socks5-1
+  - IR-socks5-2
+  - IR-socks5-3
+  - IR-socks5-4
+  - IR-socks5-5
+  - IR-socks5-6
+  - IR-socks5-7
+  - IR-socks5-8
+  - IR-socks5-9
+  - IR-socks5-10
+  - IR-socks5-11
+  - IR-socks5-12
+  - IR-socks5-13
+  - IR-socks5-14
+  - IR-socks5-15
+  - IR-socks5-16
+  - IR-socks5-17
+  - IR-socks5-18
+  - IR-socks5-19
+  - IR-http-20
+  - IR-http-21
+  - IR-http-22
+  - IR-http-23
+  - IR-http-24
+  - IR-http-25
 - name: FR
   type: select
   proxies:
@@ -4506,12 +4518,12 @@ proxy-groups:
 - name: All-Countries
   type: select
   proxies:
-  - IR
+  - GB
   - DE
   - VN
   - CA
   - US
-  - GB
+  - IR
   - FR
   - HK
   - KR
