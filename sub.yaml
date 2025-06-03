@@ -1,4 +1,9 @@
 proxies:
+- name: AZ-http-1
+  type: http
+  server: 185.77.3.74
+  port: 8080
+  udp: true
 - name: US-http-1
   type: http
   server: 65.49.14.154
@@ -4310,6 +4315,10 @@ proxies:
   port: 8080
   udp: true
 proxy-groups:
+- name: AZ
+  type: select
+  proxies:
+  - AZ-http-1
 - name: US
   type: select
   proxies:
@@ -5319,6 +5328,7 @@ proxy-groups:
 - name: All-Countries
   type: select
   proxies:
+  - AZ
   - US
   - IR
   - GB
