@@ -1,4 +1,14 @@
 proxies:
+- name: AU-http-1
+  type: http
+  server: 16.51.152.217
+  port: 3128
+  udp: true
+- name: AU-http-2
+  type: http
+  server: 103.62.50.130
+  port: 443
+  udp: true
 - name: CA-http-1
   type: http
   server: 72.10.160.90
@@ -239,87 +249,57 @@ proxies:
   server: 67.43.228.251
   port: 16829
   udp: true
-- name: CA-http-49
-  type: http
-  server: 72.10.160.90
-  port: 9771
-  udp: true
-- name: CA-http-50
-  type: http
-  server: 67.43.228.251
-  port: 6361
-  udp: true
-- name: CA-http-51
-  type: http
-  server: 67.43.236.18
-  port: 12645
-  udp: true
-- name: CA-http-52
-  type: http
-  server: 67.43.228.250
-  port: 32543
-  udp: true
-- name: CA-http-53
-  type: http
-  server: 67.43.228.250
-  port: 10113
-  udp: true
-- name: CA-http-54
-  type: http
-  server: 67.43.236.19
-  port: 17233
-  udp: true
-- name: CA-socks5-55
+- name: CA-socks5-49
   type: socks5
   server: 192.95.33.162
   port: 24794
   udp: true
-- name: CA-http-56
+- name: CA-http-50
   type: http
   server: 143.198.42.182
   port: 31280
   udp: true
-- name: CA-http-57
+- name: CA-http-51
   type: http
   server: 155.138.130.128
   port: 8888
   udp: true
-- name: CA-http-58
+- name: CA-http-52
   type: http
   server: 155.138.144.61
   port: 8888
   udp: true
-- name: CA-http-59
+- name: CA-http-53
   type: http
   server: 51.161.79.152
   port: 8888
   udp: true
-- name: CA-http-60
+- name: CA-http-54
   type: http
   server: 216.128.177.20
   port: 8888
   udp: true
-- name: CA-http-61
+- name: CA-http-55
   type: http
   server: 216.128.183.100
   port: 8888
   udp: true
-- name: CA-http-62
+- name: CA-http-56
   type: http
   server: 216.128.177.59
   port: 8888
   udp: true
-- name: CA-http-63
+- name: CA-http-57
   type: http
   server: 155.138.159.63
   port: 8888
   udp: true
-- name: CA-http-64
+- name: CA-http-58
   type: http
   server: 149.57.28.10
   port: 9443
   udp: true
-- name: CA-http-65
+- name: CA-http-59
   type: http
   server: 155.138.149.154
   port: 8888
@@ -426,25 +406,15 @@ proxies:
   udp: true
 - name: VN-http-21
   type: http
-  server: 115.72.47.243
-  port: 10002
-  udp: true
-- name: VN-http-22
-  type: http
   server: 171.226.33.249
   port: 9056
   udp: true
-- name: VN-http-23
-  type: http
-  server: 116.108.35.226
-  port: 10023
-  udp: true
-- name: VN-socks5-24
+- name: VN-socks5-22
   type: socks5
   server: 14.225.194.159
   port: 1080
   udp: true
-- name: VN-http-25
+- name: VN-http-23
   type: http
   server: 123.30.154.171
   port: 7777
@@ -7042,149 +7012,139 @@ proxies:
 - name: FR-socks5-34
   type: socks5
   server: 173.212.239.181
-  port: 11155
-  udp: true
-- name: FR-socks5-35
-  type: socks5
-  server: 173.212.239.181
-  port: 33081
-  udp: true
-- name: FR-socks5-36
-  type: socks5
-  server: 173.212.239.181
   port: 35749
   udp: true
-- name: FR-socks5-37
+- name: FR-socks5-35
   type: socks5
   server: 62.171.176.129
   port: 64662
   udp: true
-- name: FR-socks5-38
+- name: FR-socks5-36
   type: socks5
   server: 173.212.239.181
   port: 10019
   udp: true
-- name: FR-socks5-39
+- name: FR-socks5-37
   type: socks5
   server: 51.159.17.241
   port: 1080
   udp: true
-- name: FR-socks5-40
+- name: FR-socks5-38
   type: socks5
   server: 173.212.239.181
   port: 43470
   udp: true
-- name: FR-socks5-41
+- name: FR-socks5-39
   type: socks5
   server: 92.222.35.228
   port: 1080
   udp: true
-- name: FR-socks5-42
+- name: FR-socks5-40
   type: socks5
   server: 62.171.176.129
   port: 41001
   udp: true
-- name: FR-http-43
+- name: FR-http-41
   type: http
   server: 51.38.191.151
   port: 443
   udp: true
-- name: FR-http-44
+- name: FR-http-42
   type: http
   server: 5.189.154.210
   port: 443
   udp: true
-- name: FR-http-45
+- name: FR-http-43
   type: http
   server: 51.210.148.119
   port: 443
   udp: true
-- name: FR-http-46
+- name: FR-http-44
   type: http
   server: 141.94.246.168
   port: 443
   udp: true
-- name: FR-http-47
+- name: FR-http-45
   type: http
   server: 45.32.145.238
   port: 8888
   udp: true
-- name: FR-socks5-48
+- name: FR-socks5-46
   type: socks5
   server: 51.75.126.150
   port: 3217
   udp: true
-- name: FR-socks5-49
+- name: FR-socks5-47
   type: socks5
   server: 51.75.126.150
   port: 7622
   udp: true
-- name: FR-socks5-50
+- name: FR-socks5-48
   type: socks5
   server: 46.105.105.223
   port: 63425
   udp: true
-- name: FR-socks5-51
+- name: FR-socks5-49
   type: socks5
   server: 46.105.105.223
   port: 16480
   udp: true
-- name: FR-socks5-52
+- name: FR-socks5-50
   type: socks5
   server: 46.105.105.223
   port: 43853
   udp: true
-- name: FR-socks5-53
+- name: FR-socks5-51
   type: socks5
   server: 46.105.105.223
   port: 4498
   udp: true
-- name: FR-socks5-54
+- name: FR-socks5-52
   type: socks5
   server: 46.105.105.223
   port: 5589
   udp: true
-- name: FR-socks5-55
+- name: FR-socks5-53
   type: socks5
   server: 212.47.254.121
   port: 16379
   udp: true
-- name: FR-socks5-56
+- name: FR-socks5-54
   type: socks5
   server: 51.210.111.216
   port: 43311
   udp: true
-- name: FR-socks5-57
+- name: FR-socks5-55
   type: socks5
   server: 46.105.105.223
   port: 34293
   udp: true
-- name: FR-socks5-58
+- name: FR-socks5-56
   type: socks5
   server: 46.105.105.223
   port: 44290
   udp: true
-- name: FR-socks5-59
+- name: FR-socks5-57
   type: socks5
   server: 46.105.105.223
   port: 64464
   udp: true
-- name: FR-socks5-60
+- name: FR-socks5-58
   type: socks5
   server: 51.75.126.150
   port: 6424
   udp: true
-- name: FR-socks5-61
+- name: FR-socks5-59
   type: socks5
   server: 51.210.111.216
   port: 29733
   udp: true
-- name: FR-socks5-62
+- name: FR-socks5-60
   type: socks5
   server: 51.210.111.216
   port: 43520
   udp: true
-- name: FR-socks5-63
+- name: FR-socks5-61
   type: socks5
   server: 51.210.111.216
   port: 60686
@@ -7501,195 +7461,185 @@ proxies:
   udp: true
 - name: GB-socks5-39
   type: socks5
-  server: 185.93.89.166
-  port: 26704
-  udp: true
-- name: GB-socks5-40
-  type: socks5
   server: 185.93.89.146
   port: 4278
   udp: true
-- name: GB-socks5-41
+- name: GB-socks5-40
   type: socks5
   server: 185.93.89.182
   port: 32875
   udp: true
-- name: GB-socks5-42
+- name: GB-socks5-41
   type: socks5
   server: 185.93.89.182
   port: 22010
   udp: true
-- name: GB-socks5-43
+- name: GB-socks5-42
   type: socks5
   server: 185.93.89.155
   port: 6631
   udp: true
-- name: GB-socks5-44
+- name: GB-socks5-43
   type: socks5
   server: 185.93.89.183
   port: 4232
   udp: true
-- name: GB-socks5-45
+- name: GB-socks5-44
   type: socks5
   server: 185.93.89.166
   port: 11814
   udp: true
-- name: GB-socks5-46
-  type: socks5
-  server: 185.93.89.146
-  port: 9203
-  udp: true
-- name: GB-socks5-47
+- name: GB-socks5-45
   type: socks5
   server: 185.93.89.151
   port: 21011
   udp: true
-- name: GB-socks5-48
+- name: GB-socks5-46
   type: socks5
   server: 185.93.89.153
   port: 6159
   udp: true
-- name: GB-socks5-49
+- name: GB-socks5-47
   type: socks5
   server: 185.93.89.151
   port: 7437
   udp: true
-- name: GB-socks5-50
+- name: GB-socks5-48
   type: socks5
   server: 185.93.89.153
   port: 26393
   udp: true
-- name: GB-socks5-51
+- name: GB-socks5-49
   type: socks5
   server: 185.93.89.176
   port: 36198
   udp: true
-- name: GB-socks5-52
+- name: GB-socks5-50
   type: socks5
   server: 185.93.89.149
   port: 27689
   udp: true
-- name: GB-socks5-53
+- name: GB-socks5-51
   type: socks5
   server: 185.93.89.171
   port: 6645
   udp: true
-- name: GB-socks5-54
+- name: GB-socks5-52
   type: socks5
   server: 185.93.89.146
   port: 6828
   udp: true
-- name: GB-socks5-55
+- name: GB-socks5-53
   type: socks5
   server: 185.93.89.183
   port: 5686
   udp: true
-- name: GB-socks5-56
+- name: GB-socks5-54
   type: socks5
   server: 185.93.89.152
   port: 4702
   udp: true
-- name: GB-socks5-57
+- name: GB-socks5-55
   type: socks5
   server: 185.93.89.150
   port: 28953
   udp: true
-- name: GB-socks5-58
+- name: GB-socks5-56
   type: socks5
   server: 185.93.89.155
   port: 15481
   udp: true
-- name: GB-socks5-59
+- name: GB-socks5-57
   type: socks5
   server: 185.93.89.168
   port: 8787
   udp: true
-- name: GB-socks5-60
+- name: GB-socks5-58
   type: socks5
   server: 185.93.89.168
   port: 8111
   udp: true
-- name: GB-socks5-61
+- name: GB-socks5-59
   type: socks5
   server: 212.84.160.102
   port: 1080
   udp: true
-- name: GB-http-62
+- name: GB-http-60
   type: http
   server: 95.179.232.127
   port: 8888
   udp: true
-- name: GB-http-63
+- name: GB-http-61
   type: http
   server: 78.141.244.9
   port: 8888
   udp: true
-- name: GB-http-64
+- name: GB-http-62
   type: http
   server: 192.248.155.67
   port: 8888
   udp: true
-- name: GB-http-65
+- name: GB-http-63
   type: http
   server: 192.248.152.39
   port: 8888
   udp: true
-- name: GB-http-66
+- name: GB-http-64
   type: http
   server: 95.179.197.240
   port: 8888
   udp: true
-- name: GB-http-67
+- name: GB-http-65
   type: http
   server: 193.36.118.226
   port: 9443
   udp: true
-- name: GB-http-68
+- name: GB-http-66
   type: http
   server: 193.36.118.242
   port: 9443
   udp: true
-- name: GB-http-69
+- name: GB-http-67
   type: http
   server: 193.36.118.210
   port: 443
   udp: true
-- name: GB-http-70
+- name: GB-http-68
   type: http
   server: 193.36.118.210
   port: 9443
   udp: true
-- name: GB-http-71
+- name: GB-http-69
   type: http
   server: 45.63.97.57
   port: 8888
   udp: true
-- name: GB-http-72
+- name: GB-http-70
   type: http
   server: 134.209.29.120
   port: 80
   udp: true
-- name: GB-http-73
+- name: GB-http-71
   type: http
   server: 54.37.214.253
   port: 8080
   udp: true
-- name: GB-http-74
+- name: GB-http-72
   type: http
   server: 8.211.194.78
   port: 8081
   udp: true
-- name: GB-http-75
+- name: GB-http-73
   type: http
   server: 8.211.200.183
   port: 8080
   udp: true
-- name: GB-http-76
+- name: GB-http-74
   type: http
   server: 8.211.195.139
   port: 3128
   udp: true
-- name: GB-http-77
+- name: GB-http-75
   type: http
   server: 8.211.194.85
   port: 8443
@@ -10689,11 +10639,6 @@ proxies:
   server: 165.231.141.122
   port: 9443
   udp: true
-- name: AU-http-1
-  type: http
-  server: 103.62.50.130
-  port: 443
-  udp: true
 - name: TR-http-1
   type: http
   server: 134.209.108.84
@@ -10875,6 +10820,11 @@ proxies:
   port: 8080
   udp: true
 proxy-groups:
+- name: AU
+  type: select
+  proxies:
+  - AU-http-1
+  - AU-http-2
 - name: CA
   type: select
   proxies:
@@ -10926,23 +10876,17 @@ proxy-groups:
   - CA-http-46
   - CA-http-47
   - CA-http-48
-  - CA-http-49
+  - CA-socks5-49
   - CA-http-50
   - CA-http-51
   - CA-http-52
   - CA-http-53
   - CA-http-54
-  - CA-socks5-55
+  - CA-http-55
   - CA-http-56
   - CA-http-57
   - CA-http-58
   - CA-http-59
-  - CA-http-60
-  - CA-http-61
-  - CA-http-62
-  - CA-http-63
-  - CA-http-64
-  - CA-http-65
 - name: VN
   type: select
   proxies:
@@ -10967,10 +10911,8 @@ proxy-groups:
   - VN-http-19
   - VN-http-20
   - VN-http-21
-  - VN-http-22
+  - VN-socks5-22
   - VN-http-23
-  - VN-socks5-24
-  - VN-http-25
 - name: KR
   type: select
   proxies:
@@ -12308,13 +12250,13 @@ proxy-groups:
   - FR-socks5-38
   - FR-socks5-39
   - FR-socks5-40
-  - FR-socks5-41
-  - FR-socks5-42
+  - FR-http-41
+  - FR-http-42
   - FR-http-43
   - FR-http-44
   - FR-http-45
-  - FR-http-46
-  - FR-http-47
+  - FR-socks5-46
+  - FR-socks5-47
   - FR-socks5-48
   - FR-socks5-49
   - FR-socks5-50
@@ -12329,8 +12271,6 @@ proxy-groups:
   - FR-socks5-59
   - FR-socks5-60
   - FR-socks5-61
-  - FR-socks5-62
-  - FR-socks5-63
 - name: RU
   type: select
   proxies:
@@ -12423,8 +12363,8 @@ proxy-groups:
   - GB-socks5-57
   - GB-socks5-58
   - GB-socks5-59
-  - GB-socks5-60
-  - GB-socks5-61
+  - GB-http-60
+  - GB-http-61
   - GB-http-62
   - GB-http-63
   - GB-http-64
@@ -12439,8 +12379,6 @@ proxy-groups:
   - GB-http-73
   - GB-http-74
   - GB-http-75
-  - GB-http-76
-  - GB-http-77
 - name: IL
   type: select
   proxies:
@@ -13142,10 +13080,6 @@ proxy-groups:
   - EE-http-1
   - EE-http-2
   - EE-http-3
-- name: AU
-  type: select
-  proxies:
-  - AU-http-1
 - name: TR
   type: select
   proxies:
@@ -13224,6 +13158,7 @@ proxy-groups:
 - name: All-Countries
   type: select
   proxies:
+  - AU
   - CA
   - VN
   - KR
@@ -13267,7 +13202,6 @@ proxy-groups:
   - FI
   - UA
   - EE
-  - AU
   - TR
   - AL
   - JM
