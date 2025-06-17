@@ -1,4 +1,169 @@
 proxies:
+- name: IR-socks5-1
+  type: socks5
+  server: 185.93.89.189
+  port: 13608
+  udp: true
+- name: IR-socks5-2
+  type: socks5
+  server: 185.93.89.187
+  port: 12844
+  udp: true
+- name: IR-socks5-3
+  type: socks5
+  server: 185.93.89.145
+  port: 4374
+  udp: true
+- name: IR-socks5-4
+  type: socks5
+  server: 185.93.89.166
+  port: 9992
+  udp: true
+- name: IR-socks5-5
+  type: socks5
+  server: 185.93.89.180
+  port: 5773
+  udp: true
+- name: IR-socks5-6
+  type: socks5
+  server: 45.146.130.21
+  port: 25514
+  udp: true
+- name: IR-socks5-7
+  type: socks5
+  server: 185.93.89.183
+  port: 6184
+  udp: true
+- name: IR-socks5-8
+  type: socks5
+  server: 45.146.130.49
+  port: 22314
+  udp: true
+- name: IR-socks5-9
+  type: socks5
+  server: 45.146.130.18
+  port: 29299
+  udp: true
+- name: IR-socks5-10
+  type: socks5
+  server: 185.93.89.188
+  port: 25005
+  udp: true
+- name: IR-socks5-11
+  type: socks5
+  server: 185.93.89.189
+  port: 11015
+  udp: true
+- name: IR-socks5-12
+  type: socks5
+  server: 185.93.89.181
+  port: 4759
+  udp: true
+- name: IR-socks5-13
+  type: socks5
+  server: 185.93.89.181
+  port: 4789
+  udp: true
+- name: IR-socks5-14
+  type: socks5
+  server: 45.146.130.46
+  port: 13281
+  udp: true
+- name: IR-socks5-15
+  type: socks5
+  server: 185.93.89.149
+  port: 17613
+  udp: true
+- name: IR-socks5-16
+  type: socks5
+  server: 185.93.89.169
+  port: 7329
+  udp: true
+- name: IR-socks5-17
+  type: socks5
+  server: 185.93.89.155
+  port: 4267
+  udp: true
+- name: IR-socks5-18
+  type: socks5
+  server: 185.93.89.150
+  port: 18205
+  udp: true
+- name: IR-socks5-19
+  type: socks5
+  server: 185.93.89.143
+  port: 4916
+  udp: true
+- name: IR-socks5-20
+  type: socks5
+  server: 185.93.89.176
+  port: 22970
+  udp: true
+- name: IR-socks5-21
+  type: socks5
+  server: 185.93.89.191
+  port: 6922
+  udp: true
+- name: IR-socks5-22
+  type: socks5
+  server: 185.93.89.149
+  port: 23751
+  udp: true
+- name: IR-socks5-23
+  type: socks5
+  server: 185.93.89.174
+  port: 5444
+  udp: true
+- name: IR-http-24
+  type: http
+  server: 78.38.53.36
+  port: 80
+  udp: true
+- name: IR-http-25
+  type: http
+  server: 88.135.72.7
+  port: 80
+  udp: true
+- name: IR-http-26
+  type: http
+  server: 80.249.112.166
+  port: 80
+  udp: true
+- name: IR-http-27
+  type: http
+  server: 80.249.112.165
+  port: 80
+  udp: true
+- name: IR-http-28
+  type: http
+  server: 80.249.112.164
+  port: 80
+  udp: true
+- name: IR-http-29
+  type: http
+  server: 80.249.112.163
+  port: 80
+  udp: true
+- name: IR-http-30
+  type: http
+  server: 31.47.58.37
+  port: 80
+  udp: true
+- name: IR-http-31
+  type: http
+  server: 185.105.102.179
+  port: 80
+  udp: true
+- name: IR-http-32
+  type: http
+  server: 80.249.112.162
+  port: 80
+  udp: true
+- name: IR-http-33
+  type: http
+  server: 185.105.102.189
+  port: 80
+  udp: true
 - name: CA-http-1
   type: http
   server: 67.43.228.250
@@ -584,959 +749,804 @@ proxies:
   server: 184.181.178.33
   port: 4145
   udp: true
-- name: US-http-25
+- name: US-socks5-25
+  type: socks5
+  server: 184.181.178.33
+  port: 4145
+  udp: true
+- name: US-http-26
   type: http
   server: 205.178.144.110
   port: 8447
   udp: true
-- name: US-http-26
+- name: US-http-27
   type: http
   server: 181.215.52.16
   port: 9443
   udp: true
-- name: US-socks5-27
+- name: US-socks5-28
   type: socks5
   server: 192.252.214.17
   port: 4145
   udp: true
-- name: US-http-28
+- name: US-http-29
   type: http
   server: 138.199.35.197
   port: 9002
   udp: true
-- name: US-http-29
+- name: US-http-30
   type: http
   server: 138.199.35.218
   port: 9002
   udp: true
-- name: US-http-30
+- name: US-http-31
   type: http
   server: 138.199.35.196
   port: 9002
   udp: true
-- name: US-http-31
+- name: US-http-32
   type: http
   server: 138.199.35.210
   port: 9002
   udp: true
-- name: US-http-32
+- name: US-http-33
   type: http
   server: 181.215.52.142
   port: 9443
   udp: true
-- name: US-http-33
+- name: US-http-34
   type: http
   server: 156.146.59.43
   port: 9002
   udp: true
-- name: US-http-34
+- name: US-http-35
   type: http
   server: 209.38.148.139
   port: 8888
   udp: true
-- name: US-http-35
+- name: US-http-36
   type: http
   server: 138.199.35.214
   port: 9002
   udp: true
-- name: US-http-36
+- name: US-http-37
   type: http
   server: 45.76.3.45
   port: 8888
   udp: true
-- name: US-http-37
+- name: US-http-38
   type: http
   server: 5.161.156.91
   port: 8888
   udp: true
-- name: US-http-38
+- name: US-http-39
   type: http
   server: 5.161.104.22
   port: 8888
   udp: true
-- name: US-http-39
+- name: US-http-40
   type: http
   server: 5.161.155.198
   port: 8888
   udp: true
-- name: US-http-40
+- name: US-http-41
   type: http
   server: 67.21.32.144
   port: 9443
   udp: true
-- name: US-http-41
+- name: US-http-42
   type: http
   server: 138.199.35.209
   port: 9002
   udp: true
-- name: US-http-42
+- name: US-http-43
   type: http
   server: 156.146.59.23
   port: 9002
   udp: true
-- name: US-http-43
+- name: US-http-44
   type: http
   server: 45.76.3.118
   port: 8888
   udp: true
-- name: US-http-44
+- name: US-http-45
   type: http
   server: 207.148.20.225
   port: 8888
   udp: true
-- name: US-http-45
+- name: US-http-46
   type: http
   server: 5.161.98.16
   port: 8888
   udp: true
-- name: US-http-46
+- name: US-http-47
   type: http
   server: 156.146.59.10
   port: 9002
   udp: true
-- name: US-http-47
+- name: US-http-48
   type: http
   server: 68.183.62.98
   port: 8888
   udp: true
-- name: US-http-48
+- name: US-http-49
   type: http
   server: 138.199.35.204
   port: 9002
   udp: true
-- name: US-http-49
+- name: US-http-50
   type: http
   server: 138.199.35.199
   port: 9002
   udp: true
-- name: US-http-50
+- name: US-http-51
   type: http
   server: 138.199.35.205
   port: 9002
   udp: true
-- name: US-http-51
+- name: US-http-52
   type: http
   server: 156.146.59.37
   port: 9002
   udp: true
-- name: US-http-52
+- name: US-http-53
   type: http
   server: 5.161.70.13
   port: 8888
   udp: true
-- name: US-http-53
+- name: US-http-54
   type: http
   server: 156.146.59.2
   port: 9002
   udp: true
-- name: US-http-54
+- name: US-http-55
   type: http
   server: 156.146.59.36
   port: 9002
   udp: true
-- name: US-http-55
+- name: US-http-56
   type: http
   server: 138.199.35.195
   port: 9002
   udp: true
-- name: US-http-56
+- name: US-http-57
   type: http
   server: 143.198.22.162
   port: 8888
   udp: true
-- name: US-http-57
+- name: US-http-58
   type: http
   server: 156.146.59.8
   port: 9002
   udp: true
-- name: US-http-58
+- name: US-http-59
   type: http
   server: 156.146.59.7
   port: 9002
   udp: true
-- name: US-http-59
+- name: US-http-60
   type: http
   server: 156.146.59.4
   port: 9002
   udp: true
-- name: US-http-60
+- name: US-http-61
   type: http
   server: 156.146.59.9
   port: 9002
   udp: true
-- name: US-http-61
+- name: US-http-62
   type: http
   server: 147.182.252.115
   port: 8888
   udp: true
-- name: US-http-62
+- name: US-http-63
   type: http
   server: 156.146.59.15
   port: 9002
   udp: true
-- name: US-http-63
+- name: US-http-64
   type: http
   server: 181.215.52.192
   port: 9443
   udp: true
-- name: US-http-64
+- name: US-http-65
   type: http
   server: 156.146.59.19
   port: 9002
   udp: true
-- name: US-http-65
+- name: US-http-66
   type: http
   server: 209.97.153.210
   port: 8888
   udp: true
-- name: US-http-66
+- name: US-http-67
   type: http
   server: 156.146.59.39
   port: 9002
   udp: true
-- name: US-http-67
+- name: US-http-68
   type: http
   server: 156.146.59.14
   port: 9002
   udp: true
-- name: US-http-68
+- name: US-http-69
   type: http
   server: 156.146.59.12
   port: 9002
   udp: true
-- name: US-http-69
+- name: US-http-70
   type: http
   server: 138.199.35.212
   port: 9002
   udp: true
-- name: US-http-70
+- name: US-http-71
   type: http
   server: 5.161.65.47
   port: 8888
   udp: true
-- name: US-http-71
+- name: US-http-72
   type: http
   server: 156.146.59.34
   port: 9002
   udp: true
-- name: US-http-72
+- name: US-http-73
   type: http
   server: 128.199.207.200
   port: 443
   udp: true
-- name: US-http-73
+- name: US-http-74
   type: http
   server: 185.236.200.34
   port: 9443
   udp: true
-- name: US-http-74
+- name: US-http-75
   type: http
   server: 156.146.59.32
   port: 9002
   udp: true
-- name: US-http-75
+- name: US-http-76
   type: http
   server: 181.215.52.101
   port: 9443
   udp: true
-- name: US-http-76
+- name: US-http-77
   type: http
   server: 138.199.35.220
   port: 9002
   udp: true
-- name: US-http-77
+- name: US-http-78
   type: http
   server: 156.146.59.45
   port: 9002
   udp: true
-- name: US-http-78
+- name: US-http-79
   type: http
   server: 156.146.59.47
   port: 9002
   udp: true
-- name: US-http-79
+- name: US-http-80
   type: http
   server: 107.152.33.202
   port: 8888
   udp: true
-- name: US-http-80
+- name: US-http-81
   type: http
   server: 138.199.35.201
   port: 9002
   udp: true
-- name: US-http-81
+- name: US-http-82
   type: http
   server: 181.215.52.30
   port: 9443
   udp: true
-- name: US-http-82
+- name: US-http-83
   type: http
   server: 138.199.35.211
   port: 9002
   udp: true
-- name: US-http-83
+- name: US-http-84
   type: http
   server: 181.215.52.162
   port: 9443
   udp: true
-- name: US-http-84
+- name: US-http-85
   type: http
   server: 45.77.187.120
   port: 8888
   udp: true
-- name: US-http-85
+- name: US-http-86
   type: http
   server: 138.199.35.203
   port: 9002
   udp: true
-- name: US-http-86
+- name: US-http-87
   type: http
   server: 185.236.200.18
   port: 9443
   udp: true
-- name: US-http-87
+- name: US-http-88
   type: http
   server: 74.103.66.15
   port: 443
   udp: true
-- name: US-http-88
+- name: US-http-89
   type: http
   server: 156.146.59.18
   port: 9002
   udp: true
-- name: US-http-89
+- name: US-http-90
   type: http
   server: 143.198.22.113
   port: 8888
   udp: true
-- name: US-http-90
+- name: US-http-91
   type: http
   server: 181.215.52.6
   port: 9443
   udp: true
-- name: US-http-91
+- name: US-http-92
   type: http
   server: 104.248.130.209
   port: 3129
   udp: true
-- name: US-socks5-92
+- name: US-socks5-93
   type: socks5
   server: 161.35.70.249
   port: 1080
   udp: true
-- name: US-http-93
+- name: US-http-94
   type: http
   server: 161.35.70.249
   port: 3128
   udp: true
-- name: US-http-94
+- name: US-http-95
   type: http
   server: 138.199.35.217
   port: 9002
   udp: true
-- name: US-http-95
+- name: US-http-96
   type: http
   server: 156.146.59.41
   port: 9002
   udp: true
-- name: US-http-96
+- name: US-http-97
   type: http
   server: 181.215.52.40
   port: 9443
   udp: true
-- name: US-http-97
+- name: US-http-98
   type: http
   server: 156.146.59.5
   port: 9002
   udp: true
-- name: US-http-98
+- name: US-http-99
   type: http
   server: 159.65.189.245
   port: 8888
   udp: true
-- name: US-http-99
+- name: US-http-100
   type: http
   server: 156.146.59.13
   port: 9002
   udp: true
-- name: US-http-100
+- name: US-http-101
   type: http
   server: 181.215.52.122
   port: 9443
   udp: true
-- name: US-http-101
+- name: US-http-102
   type: http
   server: 156.146.59.6
   port: 9002
   udp: true
-- name: US-http-102
+- name: US-http-103
   type: http
   server: 138.199.35.215
   port: 9002
   udp: true
-- name: US-http-103
+- name: US-http-104
   type: http
   server: 5.161.72.12
   port: 8888
   udp: true
-- name: US-http-104
+- name: US-http-105
   type: http
   server: 205.178.136.175
   port: 8443
   udp: true
-- name: US-http-105
+- name: US-http-106
   type: http
   server: 205.178.144.173
   port: 8447
   udp: true
-- name: US-http-106
+- name: US-http-107
   type: http
   server: 209.97.150.167
   port: 80
   udp: true
-- name: US-http-107
+- name: US-http-108
   type: http
   server: 138.68.60.8
   port: 80
   udp: true
-- name: US-http-108
+- name: US-http-109
   type: http
   server: 156.244.0.116
   port: 4444
   udp: true
-- name: US-http-109
+- name: US-http-110
   type: http
   server: 156.244.0.116
   port: 55553
   udp: true
-- name: US-socks5-110
+- name: US-socks5-111
   type: socks5
   server: 64.202.184.249
   port: 62162
   udp: true
-- name: US-http-111
+- name: US-http-112
   type: http
   server: 142.93.202.130
   port: 3128
   udp: true
-- name: US-http-112
+- name: US-http-113
   type: http
   server: 47.83.192.255
   port: 8888
   udp: true
-- name: US-socks5-113
+- name: US-socks5-114
   type: socks5
   server: 192.111.135.18
   port: 18301
   udp: true
-- name: US-socks5-114
+- name: US-socks5-115
   type: socks5
   server: 64.202.184.249
   port: 6282
   udp: true
-- name: US-http-115
+- name: US-http-116
   type: http
   server: 208.87.243.199
   port: 7878
   udp: true
-- name: US-http-116
+- name: US-http-117
   type: http
   server: 47.250.155.254
   port: 10002
   udp: true
-- name: US-socks5-117
+- name: US-socks5-118
   type: socks5
   server: 50.63.12.101
   port: 27071
   udp: true
-- name: US-socks5-118
+- name: US-socks5-119
   type: socks5
   server: 199.102.106.94
   port: 4145
   udp: true
-- name: US-socks5-119
+- name: US-socks5-120
   type: socks5
   server: 104.37.135.145
   port: 4145
   udp: true
-- name: US-socks5-120
+- name: US-socks5-121
   type: socks5
   server: 64.202.184.249
   port: 18087
   udp: true
-- name: US-http-121
+- name: US-http-122
   type: http
   server: 8.148.20.126
   port: 80
   udp: true
-- name: US-socks5-122
+- name: US-socks5-123
   type: socks5
   server: 50.63.12.101
   port: 47544
   udp: true
-- name: US-socks5-123
+- name: US-socks5-124
   type: socks5
   server: 142.54.235.9
   port: 4145
   udp: true
-- name: US-socks5-124
+- name: US-socks5-125
   type: socks5
   server: 104.200.152.30
   port: 4145
   udp: true
-- name: US-http-125
+- name: US-http-126
   type: http
   server: 159.65.245.255
   port: 80
   udp: true
-- name: US-socks5-126
+- name: US-socks5-127
   type: socks5
   server: 142.54.237.38
   port: 4145
   udp: true
-- name: US-socks5-127
+- name: US-socks5-128
   type: socks5
   server: 192.252.209.158
   port: 4145
   udp: true
-- name: US-socks5-128
+- name: US-socks5-129
   type: socks5
   server: 199.58.184.97
   port: 4145
   udp: true
-- name: US-socks5-129
+- name: US-socks5-130
   type: socks5
   server: 192.252.211.197
   port: 14921
   udp: true
-- name: US-socks5-130
+- name: US-socks5-131
   type: socks5
   server: 192.111.139.163
   port: 19404
   udp: true
-- name: US-socks5-131
+- name: US-socks5-132
   type: socks5
   server: 50.63.12.101
   port: 1376
   udp: true
-- name: US-socks5-132
+- name: US-socks5-133
   type: socks5
   server: 184.181.217.213
   port: 4145
   udp: true
-- name: US-http-133
+- name: US-http-134
   type: http
   server: 216.229.112.25
   port: 8080
   udp: true
-- name: US-http-134
+- name: US-http-135
   type: http
   server: 154.16.146.45
   port: 80
   udp: true
-- name: US-http-135
+- name: US-http-136
   type: http
   server: 47.89.159.212
   port: 8123
   udp: true
-- name: US-socks5-136
+- name: US-socks5-137
   type: socks5
   server: 68.71.245.206
   port: 4145
   udp: true
-- name: US-socks5-137
+- name: US-socks5-138
   type: socks5
   server: 72.205.0.93
   port: 4145
   udp: true
-- name: US-http-138
+- name: US-http-139
   type: http
   server: 23.247.136.254
   port: 80
   udp: true
-- name: US-http-139
+- name: US-http-140
   type: http
   server: 47.251.74.38
   port: 9080
   udp: true
-- name: US-http-140
+- name: US-http-141
   type: http
   server: 47.90.167.27
   port: 8080
   udp: true
-- name: US-socks5-141
+- name: US-socks5-142
   type: socks5
   server: 184.178.172.14
   port: 4145
   udp: true
-- name: US-socks5-142
+- name: US-socks5-143
   type: socks5
   server: 98.188.47.132
   port: 4145
   udp: true
-- name: US-socks5-143
+- name: US-socks5-144
   type: socks5
   server: 184.178.172.11
   port: 4145
   udp: true
-- name: US-socks5-144
+- name: US-socks5-145
   type: socks5
   server: 184.178.172.23
   port: 4145
   udp: true
-- name: US-socks5-145
+- name: US-socks5-146
   type: socks5
   server: 68.1.210.163
   port: 4145
   udp: true
-- name: US-socks5-146
+- name: US-socks5-147
   type: socks5
   server: 68.71.247.130
   port: 4145
   udp: true
-- name: US-http-147
+- name: US-http-148
   type: http
   server: 47.237.107.41
   port: 4145
   udp: true
-- name: US-http-148
+- name: US-http-149
   type: http
   server: 47.250.177.202
   port: 3128
   udp: true
-- name: US-http-149
+- name: US-http-150
   type: http
   server: 47.250.177.202
   port: 9080
   udp: true
-- name: US-http-150
+- name: US-http-151
   type: http
   server: 47.90.167.27
   port: 8880
   udp: true
-- name: US-http-151
+- name: US-http-152
   type: http
   server: 47.250.155.254
   port: 8443
   udp: true
-- name: US-http-152
+- name: US-http-153
   type: http
   server: 154.16.146.42
   port: 80
   udp: true
-- name: US-http-153
+- name: US-http-154
   type: http
   server: 47.238.128.246
   port: 85
   udp: true
-- name: US-http-154
+- name: US-http-155
   type: http
   server: 47.252.11.233
   port: 8443
   udp: true
-- name: US-http-155
+- name: US-http-156
   type: http
   server: 47.89.159.212
   port: 3128
   udp: true
-- name: US-http-156
+- name: US-http-157
   type: http
   server: 47.237.2.245
   port: 80
   udp: true
-- name: US-socks5-157
+- name: US-socks5-158
   type: socks5
   server: 198.8.94.170
   port: 4145
   udp: true
-- name: US-socks5-158
+- name: US-socks5-159
   type: socks5
   server: 72.195.34.59
   port: 4145
   udp: true
-- name: US-socks5-159
+- name: US-socks5-160
   type: socks5
   server: 184.178.172.26
   port: 4145
   udp: true
-- name: US-socks5-160
+- name: US-socks5-161
   type: socks5
   server: 72.195.114.169
   port: 4145
   udp: true
-- name: US-socks5-161
+- name: US-socks5-162
   type: socks5
   server: 98.170.57.249
   port: 4145
   udp: true
-- name: US-socks5-162
+- name: US-socks5-163
   type: socks5
   server: 208.65.90.21
   port: 4145
   udp: true
-- name: US-socks5-163
+- name: US-socks5-164
   type: socks5
   server: 68.71.254.6
   port: 4145
   udp: true
-- name: US-http-164
+- name: US-http-165
   type: http
   server: 47.90.205.231
   port: 33333
   udp: true
-- name: US-http-165
+- name: US-http-166
   type: http
   server: 47.252.18.37
   port: 80
   udp: true
-- name: US-socks5-166
+- name: US-socks5-167
   type: socks5
   server: 98.170.57.241
   port: 4145
   udp: true
-- name: US-http-167
+- name: US-http-168
   type: http
   server: 47.251.87.74
   port: 9050
   udp: true
-- name: US-socks5-168
+- name: US-socks5-169
   type: socks5
   server: 198.8.84.3
   port: 4145
   udp: true
-- name: US-socks5-169
+- name: US-socks5-170
   type: socks5
   server: 24.249.199.12
   port: 4145
   udp: true
-- name: US-socks5-170
+- name: US-socks5-171
   type: socks5
   server: 192.252.215.2
   port: 4145
   udp: true
-- name: US-socks5-171
+- name: US-socks5-172
   type: socks5
   server: 206.220.175.2
   port: 4145
   udp: true
-- name: US-socks5-172
+- name: US-socks5-173
   type: socks5
   server: 142.54.229.249
   port: 4145
   udp: true
-- name: US-socks5-173
+- name: US-socks5-174
   type: socks5
   server: 70.166.167.55
   port: 57745
   udp: true
-- name: US-socks5-174
+- name: US-socks5-175
   type: socks5
   server: 98.181.137.80
   port: 4145
   udp: true
-- name: US-socks5-175
+- name: US-socks5-176
   type: socks5
   server: 192.111.139.165
   port: 4145
   udp: true
-- name: US-socks5-176
+- name: US-socks5-177
   type: socks5
   server: 192.111.138.29
   port: 4145
   udp: true
-- name: US-socks5-177
+- name: US-socks5-178
   type: socks5
   server: 72.37.217.3
   port: 4145
   udp: true
-- name: US-socks5-178
+- name: US-socks5-179
   type: socks5
   server: 104.200.135.46
   port: 4145
   udp: true
-- name: US-socks5-179
+- name: US-socks5-180
   type: socks5
   server: 98.152.200.61
   port: 8081
   udp: true
-- name: US-http-180
+- name: US-http-181
   type: http
   server: 47.252.11.233
   port: 3128
   udp: true
-- name: US-http-181
+- name: US-http-182
   type: http
   server: 47.90.149.238
   port: 3128
   udp: true
-- name: US-socks5-182
+- name: US-socks5-183
   type: socks5
   server: 72.195.34.58
   port: 4145
   udp: true
-- name: US-http-183
+- name: US-http-184
   type: http
   server: 162.223.90.130
-  port: 80
-  udp: true
-- name: IR-socks5-1
-  type: socks5
-  server: 185.93.89.187
-  port: 12844
-  udp: true
-- name: IR-socks5-2
-  type: socks5
-  server: 185.93.89.145
-  port: 4374
-  udp: true
-- name: IR-socks5-3
-  type: socks5
-  server: 185.93.89.166
-  port: 9992
-  udp: true
-- name: IR-socks5-4
-  type: socks5
-  server: 185.93.89.180
-  port: 5773
-  udp: true
-- name: IR-socks5-5
-  type: socks5
-  server: 45.146.130.21
-  port: 25514
-  udp: true
-- name: IR-socks5-6
-  type: socks5
-  server: 185.93.89.183
-  port: 6184
-  udp: true
-- name: IR-socks5-7
-  type: socks5
-  server: 45.146.130.49
-  port: 22314
-  udp: true
-- name: IR-socks5-8
-  type: socks5
-  server: 45.146.130.18
-  port: 29299
-  udp: true
-- name: IR-socks5-9
-  type: socks5
-  server: 185.93.89.188
-  port: 25005
-  udp: true
-- name: IR-socks5-10
-  type: socks5
-  server: 185.93.89.189
-  port: 11015
-  udp: true
-- name: IR-socks5-11
-  type: socks5
-  server: 185.93.89.181
-  port: 4759
-  udp: true
-- name: IR-socks5-12
-  type: socks5
-  server: 185.93.89.181
-  port: 4789
-  udp: true
-- name: IR-socks5-13
-  type: socks5
-  server: 45.146.130.46
-  port: 13281
-  udp: true
-- name: IR-socks5-14
-  type: socks5
-  server: 185.93.89.149
-  port: 17613
-  udp: true
-- name: IR-socks5-15
-  type: socks5
-  server: 185.93.89.169
-  port: 7329
-  udp: true
-- name: IR-socks5-16
-  type: socks5
-  server: 185.93.89.155
-  port: 4267
-  udp: true
-- name: IR-socks5-17
-  type: socks5
-  server: 185.93.89.150
-  port: 18205
-  udp: true
-- name: IR-socks5-18
-  type: socks5
-  server: 185.93.89.143
-  port: 4916
-  udp: true
-- name: IR-socks5-19
-  type: socks5
-  server: 185.93.89.176
-  port: 22970
-  udp: true
-- name: IR-socks5-20
-  type: socks5
-  server: 185.93.89.191
-  port: 6922
-  udp: true
-- name: IR-socks5-21
-  type: socks5
-  server: 185.93.89.149
-  port: 23751
-  udp: true
-- name: IR-socks5-22
-  type: socks5
-  server: 185.93.89.174
-  port: 5444
-  udp: true
-- name: IR-http-23
-  type: http
-  server: 78.38.53.36
-  port: 80
-  udp: true
-- name: IR-http-24
-  type: http
-  server: 88.135.72.7
-  port: 80
-  udp: true
-- name: IR-http-25
-  type: http
-  server: 80.249.112.166
-  port: 80
-  udp: true
-- name: IR-http-26
-  type: http
-  server: 80.249.112.165
-  port: 80
-  udp: true
-- name: IR-http-27
-  type: http
-  server: 80.249.112.164
-  port: 80
-  udp: true
-- name: IR-http-28
-  type: http
-  server: 80.249.112.163
-  port: 80
-  udp: true
-- name: IR-http-29
-  type: http
-  server: 31.47.58.37
-  port: 80
-  udp: true
-- name: IR-http-30
-  type: http
-  server: 185.105.102.179
-  port: 80
-  udp: true
-- name: IR-http-31
-  type: http
-  server: 80.249.112.162
-  port: 80
-  udp: true
-- name: IR-http-32
-  type: http
-  server: 185.105.102.189
   port: 80
   udp: true
 - name: CN-http-1
@@ -3254,11 +3264,6 @@ proxies:
   server: 195.231.68.213
   port: 3128
   udp: true
-- name: LT-http-1
-  type: http
-  server: 85.206.93.105
-  port: 8080
-  udp: true
 - name: PL-http-1
   type: http
   server: 83.168.76.89
@@ -3506,475 +3511,470 @@ proxies:
   udp: true
 - name: RO-http-35
   type: http
-  server: 84.239.49.201
+  server: 84.239.49.161
   port: 9002
   udp: true
 - name: RO-http-36
   type: http
-  server: 84.239.49.161
+  server: 193.176.84.7
   port: 9002
   udp: true
 - name: RO-http-37
   type: http
-  server: 193.176.84.7
+  server: 84.239.49.225
   port: 9002
   udp: true
 - name: RO-http-38
   type: http
-  server: 84.239.49.225
+  server: 84.239.49.180
   port: 9002
   udp: true
 - name: RO-http-39
   type: http
-  server: 84.239.49.180
+  server: 84.239.49.188
   port: 9002
   udp: true
 - name: RO-http-40
   type: http
-  server: 84.239.49.188
+  server: 84.239.14.166
   port: 9002
   udp: true
 - name: RO-http-41
   type: http
-  server: 84.239.14.166
+  server: 84.239.49.160
   port: 9002
   udp: true
 - name: RO-http-42
   type: http
-  server: 84.239.49.160
+  server: 84.239.49.198
   port: 9002
   udp: true
 - name: RO-http-43
   type: http
-  server: 84.239.49.198
+  server: 84.239.14.169
   port: 9002
   udp: true
 - name: RO-http-44
   type: http
-  server: 84.239.14.169
+  server: 84.239.49.38
   port: 9002
   udp: true
 - name: RO-http-45
   type: http
-  server: 84.239.49.38
+  server: 193.176.84.22
   port: 9002
   udp: true
 - name: RO-http-46
   type: http
-  server: 193.176.84.22
+  server: 84.239.49.164
   port: 9002
   udp: true
 - name: RO-http-47
   type: http
-  server: 84.239.49.164
+  server: 84.239.49.51
   port: 9002
   udp: true
 - name: RO-http-48
   type: http
-  server: 84.239.49.51
+  server: 84.239.14.175
   port: 9002
   udp: true
 - name: RO-http-49
   type: http
-  server: 84.239.14.175
+  server: 84.239.49.221
   port: 9002
   udp: true
 - name: RO-http-50
   type: http
-  server: 84.239.49.221
+  server: 84.239.49.250
   port: 9002
   udp: true
 - name: RO-http-51
   type: http
-  server: 84.239.49.250
+  server: 84.239.49.205
   port: 9002
   udp: true
 - name: RO-http-52
   type: http
-  server: 84.239.49.205
+  server: 84.239.14.154
   port: 9002
   udp: true
 - name: RO-http-53
   type: http
-  server: 84.239.14.154
+  server: 84.239.49.213
   port: 9002
   udp: true
 - name: RO-http-54
   type: http
-  server: 84.239.49.213
+  server: 84.239.49.176
   port: 9002
   udp: true
 - name: RO-http-55
   type: http
-  server: 84.239.49.176
+  server: 84.239.49.217
   port: 9002
   udp: true
 - name: RO-http-56
   type: http
-  server: 84.239.49.217
+  server: 84.239.49.55
   port: 9002
   udp: true
 - name: RO-http-57
   type: http
-  server: 84.239.49.55
+  server: 84.239.49.166
   port: 9002
   udp: true
 - name: RO-http-58
   type: http
-  server: 84.239.49.166
+  server: 84.239.49.182
   port: 9002
   udp: true
 - name: RO-http-59
   type: http
-  server: 84.239.49.182
+  server: 193.176.84.12
   port: 9002
   udp: true
 - name: RO-http-60
   type: http
-  server: 193.176.84.12
+  server: 84.239.49.196
   port: 9002
   udp: true
 - name: RO-http-61
   type: http
-  server: 84.239.49.196
+  server: 84.239.49.186
   port: 9002
   udp: true
 - name: RO-http-62
   type: http
-  server: 84.239.49.186
+  server: 193.176.84.36
   port: 9002
   udp: true
 - name: RO-http-63
   type: http
-  server: 193.176.84.36
+  server: 84.239.49.177
   port: 9002
   udp: true
 - name: RO-http-64
   type: http
-  server: 84.239.49.177
+  server: 193.176.84.16
   port: 9002
   udp: true
 - name: RO-http-65
   type: http
-  server: 193.176.84.16
+  server: 84.239.49.39
   port: 9002
   udp: true
 - name: RO-http-66
   type: http
-  server: 84.239.49.39
+  server: 84.239.49.207
   port: 9002
   udp: true
 - name: RO-http-67
   type: http
-  server: 84.239.49.207
+  server: 84.239.49.173
   port: 9002
   udp: true
 - name: RO-http-68
   type: http
-  server: 84.239.49.173
+  server: 84.239.14.164
   port: 9002
   udp: true
 - name: RO-http-69
   type: http
-  server: 84.239.14.164
+  server: 193.176.84.6
   port: 9002
   udp: true
 - name: RO-http-70
   type: http
-  server: 193.176.84.6
+  server: 193.176.84.17
   port: 9002
   udp: true
 - name: RO-http-71
   type: http
-  server: 193.176.84.17
+  server: 84.239.49.194
   port: 9002
   udp: true
 - name: RO-http-72
   type: http
-  server: 84.239.49.194
+  server: 84.239.49.189
   port: 9002
   udp: true
 - name: RO-http-73
   type: http
-  server: 84.239.49.189
+  server: 193.176.84.30
   port: 9002
   udp: true
 - name: RO-http-74
   type: http
-  server: 193.176.84.30
+  server: 193.176.84.14
   port: 9002
   udp: true
 - name: RO-http-75
   type: http
-  server: 193.176.84.14
+  server: 84.239.49.184
   port: 9002
   udp: true
 - name: RO-http-76
   type: http
-  server: 84.239.49.184
+  server: 84.239.14.171
   port: 9002
   udp: true
 - name: RO-http-77
   type: http
-  server: 84.239.14.171
+  server: 84.239.14.148
   port: 9002
   udp: true
 - name: RO-http-78
   type: http
-  server: 84.239.14.148
+  server: 84.239.49.56
   port: 9002
   udp: true
 - name: RO-http-79
   type: http
-  server: 84.239.49.56
+  server: 84.239.49.219
   port: 9002
   udp: true
 - name: RO-http-80
   type: http
-  server: 84.239.49.219
+  server: 84.239.49.43
   port: 9002
   udp: true
 - name: RO-http-81
   type: http
-  server: 84.239.49.43
+  server: 84.239.49.249
   port: 9002
   udp: true
 - name: RO-http-82
   type: http
-  server: 84.239.49.249
+  server: 84.239.49.155
   port: 9002
   udp: true
 - name: RO-http-83
   type: http
-  server: 84.239.49.155
+  server: 84.239.49.187
   port: 9002
   udp: true
 - name: RO-http-84
   type: http
-  server: 84.239.49.187
+  server: 193.176.84.26
   port: 9002
   udp: true
 - name: RO-http-85
   type: http
-  server: 193.176.84.26
+  server: 84.239.49.57
   port: 9002
   udp: true
 - name: RO-http-86
   type: http
-  server: 84.239.49.57
+  server: 84.239.49.236
   port: 9002
   udp: true
 - name: RO-http-87
   type: http
-  server: 84.239.49.236
+  server: 84.239.49.58
   port: 9002
   udp: true
 - name: RO-http-88
   type: http
-  server: 84.239.49.58
+  server: 84.239.49.40
   port: 9002
   udp: true
 - name: RO-http-89
   type: http
-  server: 84.239.49.40
+  server: 84.239.49.165
   port: 9002
   udp: true
 - name: RO-http-90
   type: http
-  server: 84.239.49.165
+  server: 84.239.49.245
   port: 9002
   udp: true
 - name: RO-http-91
   type: http
-  server: 84.239.49.245
+  server: 84.239.49.206
   port: 9002
   udp: true
 - name: RO-http-92
   type: http
-  server: 84.239.49.206
+  server: 193.176.84.24
   port: 9002
   udp: true
 - name: RO-http-93
   type: http
-  server: 193.176.84.24
+  server: 84.239.49.61
   port: 9002
   udp: true
 - name: RO-http-94
   type: http
-  server: 84.239.49.61
+  server: 84.239.49.171
   port: 9002
   udp: true
 - name: RO-http-95
   type: http
-  server: 84.239.49.171
+  server: 84.239.14.170
   port: 9002
   udp: true
 - name: RO-http-96
   type: http
-  server: 84.239.14.170
+  server: 84.239.49.49
   port: 9002
   udp: true
 - name: RO-http-97
   type: http
-  server: 84.239.49.49
+  server: 84.239.49.230
   port: 9002
   udp: true
 - name: RO-http-98
   type: http
-  server: 84.239.49.230
+  server: 84.239.49.239
   port: 9002
   udp: true
 - name: RO-http-99
   type: http
-  server: 84.239.49.239
+  server: 84.239.49.170
   port: 9002
   udp: true
 - name: RO-http-100
   type: http
-  server: 84.239.49.170
+  server: 84.239.49.53
   port: 9002
   udp: true
 - name: RO-http-101
   type: http
-  server: 84.239.49.53
+  server: 84.239.49.181
   port: 9002
   udp: true
 - name: RO-http-102
   type: http
-  server: 84.239.49.181
+  server: 193.176.84.9
   port: 9002
   udp: true
 - name: RO-http-103
   type: http
-  server: 193.176.84.9
+  server: 84.239.49.242
   port: 9002
   udp: true
 - name: RO-http-104
   type: http
-  server: 84.239.49.242
+  server: 193.176.84.29
   port: 9002
   udp: true
 - name: RO-http-105
   type: http
-  server: 193.176.84.29
+  server: 84.239.14.151
   port: 9002
   udp: true
 - name: RO-http-106
   type: http
-  server: 84.239.14.151
+  server: 84.239.49.158
   port: 9002
   udp: true
 - name: RO-http-107
   type: http
-  server: 84.239.49.158
+  server: 84.239.49.208
   port: 9002
   udp: true
 - name: RO-http-108
   type: http
-  server: 84.239.49.208
+  server: 84.239.49.54
   port: 9002
   udp: true
 - name: RO-http-109
   type: http
-  server: 84.239.49.54
+  server: 84.239.14.156
   port: 9002
   udp: true
 - name: RO-http-110
   type: http
-  server: 84.239.14.156
+  server: 84.239.49.202
   port: 9002
   udp: true
 - name: RO-http-111
   type: http
-  server: 84.239.49.202
+  server: 84.239.49.226
   port: 9002
   udp: true
 - name: RO-http-112
   type: http
-  server: 84.239.49.226
+  server: 84.239.49.244
   port: 9002
   udp: true
 - name: RO-http-113
   type: http
-  server: 84.239.49.244
+  server: 84.239.49.212
   port: 9002
   udp: true
 - name: RO-http-114
   type: http
-  server: 84.239.49.212
+  server: 84.239.49.209
   port: 9002
   udp: true
 - name: RO-http-115
   type: http
-  server: 84.239.49.209
+  server: 193.176.84.20
   port: 9002
   udp: true
 - name: RO-http-116
   type: http
-  server: 193.176.84.20
+  server: 193.176.84.37
   port: 9002
   udp: true
 - name: RO-http-117
   type: http
-  server: 193.176.84.37
+  server: 84.239.49.234
   port: 9002
   udp: true
 - name: RO-http-118
   type: http
-  server: 84.239.49.234
+  server: 84.239.49.157
   port: 9002
   udp: true
 - name: RO-http-119
   type: http
-  server: 84.239.49.157
+  server: 193.176.84.32
   port: 9002
   udp: true
 - name: RO-http-120
   type: http
-  server: 193.176.84.32
+  server: 84.239.49.233
   port: 9002
   udp: true
 - name: RO-http-121
   type: http
-  server: 84.239.49.233
+  server: 193.176.84.35
   port: 9002
   udp: true
 - name: RO-http-122
   type: http
-  server: 193.176.84.35
+  server: 193.176.84.21
   port: 9002
   udp: true
 - name: RO-http-123
   type: http
-  server: 193.176.84.21
+  server: 84.239.14.152
   port: 9002
   udp: true
 - name: RO-http-124
   type: http
-  server: 84.239.14.152
+  server: 84.239.49.50
   port: 9002
   udp: true
 - name: RO-http-125
   type: http
-  server: 84.239.49.50
+  server: 84.239.49.211
   port: 9002
   udp: true
 - name: RO-http-126
   type: http
-  server: 84.239.49.211
+  server: 193.176.84.10
   port: 9002
   udp: true
 - name: RO-http-127
   type: http
-  server: 193.176.84.10
-  port: 9002
-  udp: true
-- name: RO-http-128
-  type: http
   server: 84.239.49.156
   port: 9002
   udp: true
-- name: RO-http-129
+- name: RO-http-128
   type: http
   server: 84.239.49.46
   port: 9002
@@ -4195,6 +4195,42 @@ proxies:
   port: 1080
   udp: true
 proxy-groups:
+- name: IR
+  type: select
+  proxies:
+  - IR-socks5-1
+  - IR-socks5-2
+  - IR-socks5-3
+  - IR-socks5-4
+  - IR-socks5-5
+  - IR-socks5-6
+  - IR-socks5-7
+  - IR-socks5-8
+  - IR-socks5-9
+  - IR-socks5-10
+  - IR-socks5-11
+  - IR-socks5-12
+  - IR-socks5-13
+  - IR-socks5-14
+  - IR-socks5-15
+  - IR-socks5-16
+  - IR-socks5-17
+  - IR-socks5-18
+  - IR-socks5-19
+  - IR-socks5-20
+  - IR-socks5-21
+  - IR-socks5-22
+  - IR-socks5-23
+  - IR-http-24
+  - IR-http-25
+  - IR-http-26
+  - IR-http-27
+  - IR-http-28
+  - IR-http-29
+  - IR-http-30
+  - IR-http-31
+  - IR-http-32
+  - IR-http-33
 - name: CA
   type: select
   proxies:
@@ -4324,10 +4360,10 @@ proxy-groups:
   - US-http-22
   - US-http-23
   - US-socks5-24
-  - US-http-25
+  - US-socks5-25
   - US-http-26
-  - US-socks5-27
-  - US-http-28
+  - US-http-27
+  - US-socks5-28
   - US-http-29
   - US-http-30
   - US-http-31
@@ -4391,8 +4427,8 @@ proxy-groups:
   - US-http-89
   - US-http-90
   - US-http-91
-  - US-socks5-92
-  - US-http-93
+  - US-http-92
+  - US-socks5-93
   - US-http-94
   - US-http-95
   - US-http-96
@@ -4409,44 +4445,44 @@ proxy-groups:
   - US-http-107
   - US-http-108
   - US-http-109
-  - US-socks5-110
-  - US-http-111
+  - US-http-110
+  - US-socks5-111
   - US-http-112
-  - US-socks5-113
+  - US-http-113
   - US-socks5-114
-  - US-http-115
+  - US-socks5-115
   - US-http-116
-  - US-socks5-117
+  - US-http-117
   - US-socks5-118
   - US-socks5-119
   - US-socks5-120
-  - US-http-121
-  - US-socks5-122
+  - US-socks5-121
+  - US-http-122
   - US-socks5-123
   - US-socks5-124
-  - US-http-125
-  - US-socks5-126
+  - US-socks5-125
+  - US-http-126
   - US-socks5-127
   - US-socks5-128
   - US-socks5-129
   - US-socks5-130
   - US-socks5-131
   - US-socks5-132
-  - US-http-133
+  - US-socks5-133
   - US-http-134
   - US-http-135
-  - US-socks5-136
+  - US-http-136
   - US-socks5-137
-  - US-http-138
+  - US-socks5-138
   - US-http-139
   - US-http-140
-  - US-socks5-141
+  - US-http-141
   - US-socks5-142
   - US-socks5-143
   - US-socks5-144
   - US-socks5-145
   - US-socks5-146
-  - US-http-147
+  - US-socks5-147
   - US-http-148
   - US-http-149
   - US-http-150
@@ -4456,18 +4492,18 @@ proxy-groups:
   - US-http-154
   - US-http-155
   - US-http-156
-  - US-socks5-157
+  - US-http-157
   - US-socks5-158
   - US-socks5-159
   - US-socks5-160
   - US-socks5-161
   - US-socks5-162
   - US-socks5-163
-  - US-http-164
+  - US-socks5-164
   - US-http-165
-  - US-socks5-166
-  - US-http-167
-  - US-socks5-168
+  - US-http-166
+  - US-socks5-167
+  - US-http-168
   - US-socks5-169
   - US-socks5-170
   - US-socks5-171
@@ -4479,45 +4515,11 @@ proxy-groups:
   - US-socks5-177
   - US-socks5-178
   - US-socks5-179
-  - US-http-180
+  - US-socks5-180
   - US-http-181
-  - US-socks5-182
-  - US-http-183
-- name: IR
-  type: select
-  proxies:
-  - IR-socks5-1
-  - IR-socks5-2
-  - IR-socks5-3
-  - IR-socks5-4
-  - IR-socks5-5
-  - IR-socks5-6
-  - IR-socks5-7
-  - IR-socks5-8
-  - IR-socks5-9
-  - IR-socks5-10
-  - IR-socks5-11
-  - IR-socks5-12
-  - IR-socks5-13
-  - IR-socks5-14
-  - IR-socks5-15
-  - IR-socks5-16
-  - IR-socks5-17
-  - IR-socks5-18
-  - IR-socks5-19
-  - IR-socks5-20
-  - IR-socks5-21
-  - IR-socks5-22
-  - IR-http-23
-  - IR-http-24
-  - IR-http-25
-  - IR-http-26
-  - IR-http-27
-  - IR-http-28
-  - IR-http-29
-  - IR-http-30
-  - IR-http-31
-  - IR-http-32
+  - US-http-182
+  - US-socks5-183
+  - US-http-184
 - name: CN
   type: select
   proxies:
@@ -4909,10 +4911,6 @@ proxy-groups:
   proxies:
   - IT-http-1
   - IT-http-2
-- name: LT
-  type: select
-  proxies:
-  - LT-http-1
 - name: PL
   type: select
   proxies:
@@ -5074,7 +5072,6 @@ proxy-groups:
   - RO-http-126
   - RO-http-127
   - RO-http-128
-  - RO-http-129
 - name: AT
   type: select
   proxies:
@@ -5181,11 +5178,11 @@ proxy-groups:
 - name: All-Countries
   type: select
   proxies:
+  - IR
   - CA
   - DE
   - VN
   - US
-  - IR
   - CN
   - NL
   - FI
@@ -5202,7 +5199,6 @@ proxy-groups:
   - SG
   - RU
   - IT
-  - LT
   - PL
   - JO
   - CO
