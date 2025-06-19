@@ -569,72 +569,67 @@ proxies:
   server: 66.70.191.133
   port: 8443
   udp: true
-- name: CA-http-14
-  type: http
-  server: 67.43.228.250
-  port: 14197
-  udp: true
-- name: CA-socks5-15
+- name: CA-socks5-14
   type: socks5
   server: 192.95.33.162
   port: 24794
   udp: true
-- name: CA-http-16
+- name: CA-http-15
   type: http
   server: 143.198.42.182
   port: 31280
   udp: true
-- name: CA-http-17
+- name: CA-http-16
   type: http
   server: 155.138.130.128
   port: 8888
   udp: true
-- name: CA-http-18
+- name: CA-http-17
   type: http
   server: 149.57.28.9
   port: 9443
   udp: true
-- name: CA-http-19
+- name: CA-http-18
   type: http
   server: 155.138.144.61
   port: 8888
   udp: true
-- name: CA-http-20
+- name: CA-http-19
   type: http
   server: 51.161.79.152
   port: 8888
   udp: true
-- name: CA-http-21
+- name: CA-http-20
   type: http
   server: 216.128.177.20
   port: 8888
   udp: true
-- name: CA-http-22
+- name: CA-http-21
   type: http
   server: 216.128.183.100
   port: 8888
   udp: true
-- name: CA-http-23
+- name: CA-http-22
   type: http
   server: 216.128.177.59
   port: 8888
   udp: true
-- name: CA-http-24
+- name: CA-http-23
   type: http
   server: 155.138.159.63
   port: 8888
   udp: true
-- name: CA-http-25
+- name: CA-http-24
   type: http
   server: 149.57.28.10
   port: 9443
   udp: true
-- name: CA-socks5-26
+- name: CA-socks5-25
   type: socks5
   server: 143.110.217.153
   port: 1080
   udp: true
-- name: CA-http-27
+- name: CA-http-26
   type: http
   server: 155.138.149.154
   port: 8888
@@ -5969,8 +5964,8 @@ proxy-groups:
   - CA-http-11
   - CA-http-12
   - CA-http-13
-  - CA-http-14
-  - CA-socks5-15
+  - CA-socks5-14
+  - CA-http-15
   - CA-http-16
   - CA-http-17
   - CA-http-18
@@ -5980,9 +5975,8 @@ proxy-groups:
   - CA-http-22
   - CA-http-23
   - CA-http-24
-  - CA-http-25
-  - CA-socks5-26
-  - CA-http-27
+  - CA-socks5-25
+  - CA-http-26
 - name: TR
   type: select
   proxies:
