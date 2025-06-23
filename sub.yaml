@@ -1,4 +1,159 @@
 proxies:
+- name: VN-http-1
+  type: http
+  server: 115.72.7.74
+  port: 10004
+  udp: true
+- name: VN-http-2
+  type: http
+  server: 171.237.84.113
+  port: 1002
+  udp: true
+- name: VN-http-3
+  type: http
+  server: 116.104.186.175
+  port: 5108
+  udp: true
+- name: VN-http-4
+  type: http
+  server: 123.21.19.128
+  port: 1001
+  udp: true
+- name: VN-http-5
+  type: http
+  server: 115.72.165.91
+  port: 10002
+  udp: true
+- name: VN-http-6
+  type: http
+  server: 27.79.228.144
+  port: 16000
+  udp: true
+- name: VN-http-7
+  type: http
+  server: 115.74.10.61
+  port: 10006
+  udp: true
+- name: VN-http-8
+  type: http
+  server: 27.79.151.127
+  port: 16000
+  udp: true
+- name: VN-http-9
+  type: http
+  server: 27.79.167.180
+  port: 16000
+  udp: true
+- name: VN-http-10
+  type: http
+  server: 27.79.205.3
+  port: 16000
+  udp: true
+- name: VN-http-11
+  type: http
+  server: 27.79.138.129
+  port: 16000
+  udp: true
+- name: VN-http-12
+  type: http
+  server: 27.79.235.204
+  port: 16000
+  udp: true
+- name: VN-http-13
+  type: http
+  server: 27.76.162.56
+  port: 10007
+  udp: true
+- name: VN-socks5-14
+  type: socks5
+  server: 116.104.189.133
+  port: 5579
+  udp: true
+- name: VN-http-15
+  type: http
+  server: 171.228.179.54
+  port: 5107
+  udp: true
+- name: VN-http-16
+  type: http
+  server: 117.5.23.215
+  port: 5109
+  udp: true
+- name: VN-http-17
+  type: http
+  server: 171.228.143.213
+  port: 5101
+  udp: true
+- name: VN-http-18
+  type: http
+  server: 115.72.2.147
+  port: 10006
+  udp: true
+- name: VN-http-19
+  type: http
+  server: 27.74.166.34
+  port: 4003
+  udp: true
+- name: VN-socks5-20
+  type: socks5
+  server: 117.5.24.204
+  port: 5610
+  udp: true
+- name: VN-http-21
+  type: http
+  server: 58.186.174.213
+  port: 16000
+  udp: true
+- name: VN-http-22
+  type: http
+  server: 27.79.128.23
+  port: 16000
+  udp: true
+- name: VN-http-23
+  type: http
+  server: 27.79.197.184
+  port: 16000
+  udp: true
+- name: VN-http-24
+  type: http
+  server: 27.79.186.36
+  port: 16000
+  udp: true
+- name: VN-socks5-25
+  type: socks5
+  server: 27.72.100.236
+  port: 4996
+  udp: true
+- name: VN-socks5-26
+  type: socks5
+  server: 14.225.194.159
+  port: 1080
+  udp: true
+- name: VN-http-27
+  type: http
+  server: 123.30.154.171
+  port: 7777
+  udp: true
+- name: KH-http-1
+  type: http
+  server: 203.95.196.78
+  port: 8080
+  udp: true
+- name: KH-http-2
+  type: http
+  server: 50.114.33.184
+  port: 8080
+  udp: true
+- name: KH-http-3
+  type: http
+  server: 203.95.198.158
+  port: 8080
+  udp: true
+- name: KH-http-4
+  type: http
+  server: 124.108.6.20
+  port: 8085
+  udp: true
 - name: ID-http-1
   type: http
   server: 182.253.109.41
@@ -1228,136 +1383,6 @@ proxies:
   type: http
   server: 162.223.90.130
   port: 80
-  udp: true
-- name: VN-http-1
-  type: http
-  server: 171.237.84.113
-  port: 1002
-  udp: true
-- name: VN-http-2
-  type: http
-  server: 116.104.186.175
-  port: 5108
-  udp: true
-- name: VN-http-3
-  type: http
-  server: 123.21.19.128
-  port: 1001
-  udp: true
-- name: VN-http-4
-  type: http
-  server: 115.72.165.91
-  port: 10002
-  udp: true
-- name: VN-http-5
-  type: http
-  server: 27.79.228.144
-  port: 16000
-  udp: true
-- name: VN-http-6
-  type: http
-  server: 115.74.10.61
-  port: 10006
-  udp: true
-- name: VN-http-7
-  type: http
-  server: 27.79.151.127
-  port: 16000
-  udp: true
-- name: VN-http-8
-  type: http
-  server: 27.79.167.180
-  port: 16000
-  udp: true
-- name: VN-http-9
-  type: http
-  server: 27.79.205.3
-  port: 16000
-  udp: true
-- name: VN-http-10
-  type: http
-  server: 27.79.138.129
-  port: 16000
-  udp: true
-- name: VN-http-11
-  type: http
-  server: 27.79.235.204
-  port: 16000
-  udp: true
-- name: VN-http-12
-  type: http
-  server: 27.76.162.56
-  port: 10007
-  udp: true
-- name: VN-socks5-13
-  type: socks5
-  server: 116.104.189.133
-  port: 5579
-  udp: true
-- name: VN-http-14
-  type: http
-  server: 171.228.179.54
-  port: 5107
-  udp: true
-- name: VN-http-15
-  type: http
-  server: 117.5.23.215
-  port: 5109
-  udp: true
-- name: VN-http-16
-  type: http
-  server: 171.228.143.213
-  port: 5101
-  udp: true
-- name: VN-http-17
-  type: http
-  server: 115.72.2.147
-  port: 10006
-  udp: true
-- name: VN-http-18
-  type: http
-  server: 27.74.166.34
-  port: 4003
-  udp: true
-- name: VN-socks5-19
-  type: socks5
-  server: 117.5.24.204
-  port: 5610
-  udp: true
-- name: VN-http-20
-  type: http
-  server: 58.186.174.213
-  port: 16000
-  udp: true
-- name: VN-http-21
-  type: http
-  server: 27.79.128.23
-  port: 16000
-  udp: true
-- name: VN-http-22
-  type: http
-  server: 27.79.197.184
-  port: 16000
-  udp: true
-- name: VN-http-23
-  type: http
-  server: 27.79.186.36
-  port: 16000
-  udp: true
-- name: VN-socks5-24
-  type: socks5
-  server: 27.72.100.236
-  port: 4996
-  udp: true
-- name: VN-socks5-25
-  type: socks5
-  server: 14.225.194.159
-  port: 1080
-  udp: true
-- name: VN-http-26
-  type: http
-  server: 123.30.154.171
-  port: 7777
   udp: true
 - name: SG-http-1
   type: http
@@ -4824,21 +4849,6 @@ proxies:
   server: 185.23.124.226
   port: 8080
   udp: true
-- name: KH-http-1
-  type: http
-  server: 50.114.33.184
-  port: 8080
-  udp: true
-- name: KH-http-2
-  type: http
-  server: 203.95.198.158
-  port: 8080
-  udp: true
-- name: KH-http-3
-  type: http
-  server: 124.108.6.20
-  port: 8085
-  udp: true
 - name: RU-socks5-1
   type: socks5
   server: 95.188.64.220
@@ -6165,6 +6175,43 @@ proxies:
   port: 80
   udp: true
 proxy-groups:
+- name: VN
+  type: select
+  proxies:
+  - VN-http-1
+  - VN-http-2
+  - VN-http-3
+  - VN-http-4
+  - VN-http-5
+  - VN-http-6
+  - VN-http-7
+  - VN-http-8
+  - VN-http-9
+  - VN-http-10
+  - VN-http-11
+  - VN-http-12
+  - VN-http-13
+  - VN-socks5-14
+  - VN-http-15
+  - VN-http-16
+  - VN-http-17
+  - VN-http-18
+  - VN-http-19
+  - VN-socks5-20
+  - VN-http-21
+  - VN-http-22
+  - VN-http-23
+  - VN-http-24
+  - VN-socks5-25
+  - VN-socks5-26
+  - VN-http-27
+- name: KH
+  type: select
+  proxies:
+  - KH-http-1
+  - KH-http-2
+  - KH-http-3
+  - KH-http-4
 - name: ID
   type: select
   proxies:
@@ -6417,35 +6464,6 @@ proxy-groups:
   - US-http-225
   - US-socks5-226
   - US-http-227
-- name: VN
-  type: select
-  proxies:
-  - VN-http-1
-  - VN-http-2
-  - VN-http-3
-  - VN-http-4
-  - VN-http-5
-  - VN-http-6
-  - VN-http-7
-  - VN-http-8
-  - VN-http-9
-  - VN-http-10
-  - VN-http-11
-  - VN-http-12
-  - VN-socks5-13
-  - VN-http-14
-  - VN-http-15
-  - VN-http-16
-  - VN-http-17
-  - VN-http-18
-  - VN-socks5-19
-  - VN-http-20
-  - VN-http-21
-  - VN-http-22
-  - VN-http-23
-  - VN-socks5-24
-  - VN-socks5-25
-  - VN-http-26
 - name: SG
   type: select
   proxies:
@@ -7211,12 +7229,6 @@ proxy-groups:
   proxies:
   - SA-http-1
   - SA-http-2
-- name: KH
-  type: select
-  proxies:
-  - KH-http-1
-  - KH-http-2
-  - KH-http-3
 - name: RU
   type: select
   proxies:
@@ -7578,9 +7590,10 @@ proxy-groups:
 - name: All-Countries
   type: select
   proxies:
+  - VN
+  - KH
   - ID
   - US
-  - VN
   - SG
   - CA
   - AU
@@ -7605,7 +7618,6 @@ proxy-groups:
   - FI
   - OM
   - SA
-  - KH
   - RU
   - HK
   - MY
