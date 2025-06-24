@@ -241,20 +241,15 @@ proxies:
   udp: true
 - name: JP-http-11
   type: http
-  server: 8.221.141.88
+  server: 133.18.234.13
   port: 80
   udp: true
 - name: JP-http-12
   type: http
-  server: 133.18.234.13
-  port: 80
-  udp: true
-- name: JP-http-13
-  type: http
   server: 8.221.138.111
   port: 1080
   udp: true
-- name: JP-http-14
+- name: JP-http-13
   type: http
   server: 47.74.46.81
   port: 80
@@ -2017,24 +2012,14 @@ proxies:
 - name: PH-http-6
   type: http
   server: 8.212.165.164
-  port: 10000
-  udp: true
-- name: PH-http-7
-  type: http
-  server: 8.220.141.8
-  port: 8443
-  udp: true
-- name: PH-http-8
-  type: http
-  server: 8.212.165.164
   port: 8080
   udp: true
-- name: PH-http-9
+- name: PH-http-7
   type: http
   server: 8.220.136.174
   port: 9098
   udp: true
-- name: PH-http-10
+- name: PH-http-8
   type: http
   server: 8.212.151.166
   port: 80
@@ -2091,20 +2076,15 @@ proxies:
   udp: true
 - name: AE-http-11
   type: http
-  server: 47.91.109.17
-  port: 8008
-  udp: true
-- name: AE-http-12
-  type: http
   server: 47.91.110.148
   port: 8443
   udp: true
-- name: AE-http-13
+- name: AE-http-12
   type: http
   server: 47.91.115.179
   port: 4145
   udp: true
-- name: AE-http-14
+- name: AE-http-13
   type: http
   server: 47.91.121.127
   port: 8080
@@ -2200,11 +2180,6 @@ proxies:
   port: 8008
   udp: true
 - name: KR-http-19
-  type: http
-  server: 8.213.156.191
-  port: 8008
-  udp: true
-- name: KR-http-20
   type: http
   server: 8.220.204.215
   port: 9098
@@ -3166,115 +3141,85 @@ proxies:
   udp: true
 - name: US-http-140
   type: http
-  server: 47.90.167.27
-  port: 8880
-  udp: true
-- name: US-http-141
-  type: http
-  server: 47.250.155.254
-  port: 8443
-  udp: true
-- name: US-http-142
-  type: http
-  server: 154.16.146.42
-  port: 80
-  udp: true
-- name: US-http-143
-  type: http
-  server: 47.254.36.213
-  port: 80
-  udp: true
-- name: US-http-144
-  type: http
-  server: 47.237.113.119
-  port: 8008
-  udp: true
-- name: US-http-145
-  type: http
-  server: 47.252.11.233
-  port: 8443
-  udp: true
-- name: US-http-146
-  type: http
   server: 47.89.159.212
   port: 3128
   udp: true
-- name: US-http-147
+- name: US-http-141
   type: http
   server: 47.237.2.245
   port: 80
   udp: true
-- name: US-socks5-148
+- name: US-socks5-142
   type: socks5
   server: 72.195.34.59
   port: 4145
   udp: true
-- name: US-socks5-149
+- name: US-socks5-143
   type: socks5
   server: 72.195.114.169
   port: 4145
   udp: true
-- name: US-socks5-150
+- name: US-socks5-144
   type: socks5
   server: 98.170.57.249
   port: 4145
   udp: true
-- name: US-socks5-151
+- name: US-socks5-145
   type: socks5
   server: 208.65.90.21
   port: 4145
   udp: true
-- name: US-socks5-152
+- name: US-socks5-146
   type: socks5
   server: 68.71.254.6
   port: 4145
   udp: true
-- name: US-http-153
+- name: US-http-147
   type: http
   server: 47.252.18.37
   port: 80
   udp: true
-- name: US-socks5-154
+- name: US-socks5-148
   type: socks5
   server: 98.170.57.241
   port: 4145
   udp: true
-- name: US-http-155
+- name: US-http-149
   type: http
   server: 47.251.87.74
   port: 9050
   udp: true
-- name: US-socks5-156
+- name: US-socks5-150
   type: socks5
   server: 192.252.215.2
   port: 4145
   udp: true
-- name: US-socks5-157
+- name: US-socks5-151
   type: socks5
   server: 206.220.175.2
   port: 4145
   udp: true
-- name: US-socks5-158
+- name: US-socks5-152
   type: socks5
   server: 98.181.137.80
   port: 4145
   udp: true
-- name: US-http-159
+- name: US-http-153
   type: http
   server: 47.252.11.233
   port: 3128
   udp: true
-- name: US-http-160
+- name: US-http-154
   type: http
   server: 47.90.149.238
   port: 3128
   udp: true
-- name: US-http-161
+- name: US-http-155
   type: http
   server: 47.237.92.86
   port: 8080
   udp: true
-- name: US-http-162
+- name: US-http-156
   type: http
   server: 162.223.90.130
   port: 80
@@ -3516,20 +3461,15 @@ proxies:
   udp: true
 - name: GB-http-48
   type: http
-  server: 8.211.200.183
-  port: 8080
-  udp: true
-- name: GB-http-49
-  type: http
   server: 8.211.195.139
   port: 3128
   udp: true
-- name: GB-http-50
+- name: GB-http-49
   type: http
   server: 8.211.195.173
   port: 8080
   udp: true
-- name: GB-http-51
+- name: GB-http-50
   type: http
   server: 8.211.194.85
   port: 8443
@@ -3856,15 +3796,10 @@ proxies:
   udp: true
 - name: ID-http-10
   type: http
-  server: 149.129.226.9
-  port: 8081
-  udp: true
-- name: ID-http-11
-  type: http
   server: 8.215.12.103
   port: 8003
   udp: true
-- name: ID-http-12
+- name: ID-http-11
   type: http
   server: 149.129.255.179
   port: 3128
@@ -3991,30 +3926,15 @@ proxies:
   udp: true
 - name: SG-http-25
   type: http
-  server: 8.215.15.163
-  port: 8443
-  udp: true
-- name: SG-http-26
-  type: http
-  server: 8.215.3.250
-  port: 8081
-  udp: true
-- name: SG-http-27
-  type: http
-  server: 8.215.12.103
-  port: 9080
-  udp: true
-- name: SG-http-28
-  type: http
   server: 143.42.66.91
   port: 80
   udp: true
-- name: SG-http-29
+- name: SG-http-26
   type: http
   server: 8.215.15.163
   port: 8081
   udp: true
-- name: SG-http-30
+- name: SG-http-27
   type: http
   server: 8.219.229.53
   port: 8443
@@ -4148,11 +4068,6 @@ proxies:
   type: socks5
   server: 46.105.105.223
   port: 25482
-  udp: true
-- name: FR-socks5-22
-  type: socks5
-  server: 51.210.111.216
-  port: 29963
   udp: true
 - name: IN-http-1
   type: http
@@ -4651,20 +4566,15 @@ proxies:
   udp: true
 - name: HK-http-25
   type: http
-  server: 47.238.60.156
-  port: 18081
-  udp: true
-- name: HK-http-26
-  type: http
   server: 47.238.130.212
   port: 8443
   udp: true
-- name: HK-http-27
+- name: HK-http-26
   type: http
   server: 47.76.144.139
   port: 4145
   udp: true
-- name: HK-http-28
+- name: HK-http-27
   type: http
   server: 47.238.60.156
   port: 8008
@@ -5324,11 +5234,6 @@ proxies:
   server: 8.213.197.208
   port: 8080
   udp: true
-- name: AR-http-1
-  type: http
-  server: 190.103.177.131
-  port: 80
-  udp: true
 proxy-groups:
 - name: ZA
   type: select
@@ -5390,7 +5295,6 @@ proxy-groups:
   - JP-http-11
   - JP-http-12
   - JP-http-13
-  - JP-http-14
 - name: CA
   type: select
   proxies:
@@ -5760,8 +5664,6 @@ proxy-groups:
   - PH-http-6
   - PH-http-7
   - PH-http-8
-  - PH-http-9
-  - PH-http-10
 - name: AE
   type: select
   proxies:
@@ -5778,7 +5680,6 @@ proxy-groups:
   - AE-http-11
   - AE-http-12
   - AE-http-13
-  - AE-http-14
 - name: KR
   type: select
   proxies:
@@ -5801,7 +5702,6 @@ proxy-groups:
   - KR-http-17
   - KR-http-18
   - KR-http-19
-  - KR-http-20
 - name: DE
   type: select
   proxies:
@@ -6001,27 +5901,21 @@ proxy-groups:
   - US-http-139
   - US-http-140
   - US-http-141
-  - US-http-142
-  - US-http-143
-  - US-http-144
-  - US-http-145
-  - US-http-146
+  - US-socks5-142
+  - US-socks5-143
+  - US-socks5-144
+  - US-socks5-145
+  - US-socks5-146
   - US-http-147
   - US-socks5-148
-  - US-socks5-149
+  - US-http-149
   - US-socks5-150
   - US-socks5-151
   - US-socks5-152
   - US-http-153
-  - US-socks5-154
+  - US-http-154
   - US-http-155
-  - US-socks5-156
-  - US-socks5-157
-  - US-socks5-158
-  - US-http-159
-  - US-http-160
-  - US-http-161
-  - US-http-162
+  - US-http-156
 - name: GB
   type: select
   proxies:
@@ -6075,7 +5969,6 @@ proxy-groups:
   - GB-http-48
   - GB-http-49
   - GB-http-50
-  - GB-http-51
 - name: RU
   type: select
   proxies:
@@ -6163,7 +6056,6 @@ proxy-groups:
   - ID-http-9
   - ID-http-10
   - ID-http-11
-  - ID-http-12
 - name: SG
   type: select
   proxies:
@@ -6194,9 +6086,6 @@ proxy-groups:
   - SG-http-25
   - SG-http-26
   - SG-http-27
-  - SG-http-28
-  - SG-http-29
-  - SG-http-30
 - name: AU
   type: select
   proxies:
@@ -6229,7 +6118,6 @@ proxy-groups:
   - FR-socks5-19
   - FR-socks5-20
   - FR-socks5-21
-  - FR-socks5-22
 - name: IN
   type: select
   proxies:
@@ -6383,7 +6271,6 @@ proxy-groups:
   - HK-http-25
   - HK-http-26
   - HK-http-27
-  - HK-http-28
 - name: SE
   type: select
   proxies:
@@ -6566,10 +6453,6 @@ proxy-groups:
   - TH-http-2
   - TH-http-3
   - TH-http-4
-- name: AR
-  type: select
-  proxies:
-  - AR-http-1
 - name: All-Countries
   type: select
   proxies:
@@ -6630,6 +6513,5 @@ proxy-groups:
   - LB
   - TW
   - TH
-  - AR
 rules:
 - MATCH,All-Countries
